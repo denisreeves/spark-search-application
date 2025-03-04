@@ -1,0 +1,1783 @@
+2025-02-19 20:28:38,757 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-19 20:28:38,758 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-19 20:28:38,760 - INFO -  * Restarting with stat
+2025-02-19 20:28:40,064 - WARNING -  * Debugger is active!
+2025-02-19 20:28:40,070 - INFO -  * Debugger PIN: 859-764-681
+2025-02-19 20:29:42,089 - INFO - 127.0.0.1 - - [19/Feb/2025 20:29:42] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-19 20:29:42,194 - INFO - 127.0.0.1 - - [19/Feb/2025 20:29:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-19 20:29:44,534 - INFO - 127.0.0.1 - - [19/Feb/2025 20:29:44] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-19 20:36:36,072 - INFO - 127.0.0.1 - - [19/Feb/2025 20:36:36] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-19 20:37:39,292 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-19 20:37:39,292 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-19 20:37:39,294 - INFO -  * Restarting with stat
+2025-02-19 20:37:40,490 - WARNING -  * Debugger is active!
+2025-02-19 20:37:40,497 - INFO -  * Debugger PIN: 859-764-681
+2025-02-19 20:37:43,565 - INFO - 127.0.0.1 - - [19/Feb/2025 20:37:43] "GET / HTTP/1.1" 200 -
+2025-02-19 20:37:43,600 - INFO - 127.0.0.1 - - [19/Feb/2025 20:37:43] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-02-19 20:37:43,605 - INFO - 127.0.0.1 - - [19/Feb/2025 20:37:43] "[33mGET /login.js HTTP/1.1[0m" 404 -
+2025-02-19 20:37:53,134 - INFO - 127.0.0.1 - - [19/Feb/2025 20:37:53] "GET /?username=Admin&password=Admin%40123 HTTP/1.1" 200 -
+2025-02-19 20:37:53,195 - INFO - 127.0.0.1 - - [19/Feb/2025 20:37:53] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-02-19 20:37:53,197 - INFO - 127.0.0.1 - - [19/Feb/2025 20:37:53] "[33mGET /login.js HTTP/1.1[0m" 404 -
+2025-02-19 20:40:29,215 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-19 20:40:29,216 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-19 20:40:29,219 - INFO -  * Restarting with stat
+2025-02-19 20:40:30,411 - WARNING -  * Debugger is active!
+2025-02-19 20:40:30,420 - INFO -  * Debugger PIN: 859-764-681
+2025-02-19 20:40:33,996 - INFO - 127.0.0.1 - - [19/Feb/2025 20:40:33] "GET /?username=Admin&password=Admin%40123 HTTP/1.1" 200 -
+2025-02-19 20:40:34,197 - INFO - 127.0.0.1 - - [19/Feb/2025 20:40:34] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-19 20:40:34,205 - INFO - 127.0.0.1 - - [19/Feb/2025 20:40:34] "GET /static/js/login.js HTTP/1.1" 200 -
+2025-02-19 20:40:39,014 - INFO - 127.0.0.1 - - [19/Feb/2025 20:40:39] "GET /?username=Admin&password=Admin%40123 HTTP/1.1" 200 -
+2025-02-19 20:40:39,056 - INFO - 127.0.0.1 - - [19/Feb/2025 20:40:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-19 20:40:39,058 - INFO - 127.0.0.1 - - [19/Feb/2025 20:40:39] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-19 20:40:41,873 - INFO - 127.0.0.1 - - [19/Feb/2025 20:40:41] "GET / HTTP/1.1" 200 -
+2025-02-19 20:40:41,918 - INFO - 127.0.0.1 - - [19/Feb/2025 20:40:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-19 20:40:41,922 - INFO - 127.0.0.1 - - [19/Feb/2025 20:40:41] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-19 20:41:25,380 - INFO - 127.0.0.1 - - [19/Feb/2025 20:41:25] "POST /login HTTP/1.1" 200 -
+2025-02-19 20:41:25,425 - INFO - 127.0.0.1 - - [19/Feb/2025 20:41:25] "[33mGET /dashboard.html HTTP/1.1[0m" 404 -
+2025-02-19 20:43:19,624 - INFO -  * Detected change in 'D:\\INTERN\\Project\\server.py', reloading
+2025-02-19 20:43:19,742 - INFO -  * Restarting with stat
+2025-02-19 20:44:06,229 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-19 20:44:06,230 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-19 20:44:06,232 - INFO -  * Restarting with stat
+2025-02-19 20:44:07,440 - WARNING -  * Debugger is active!
+2025-02-19 20:44:07,447 - INFO -  * Debugger PIN: 859-764-681
+2025-02-19 20:44:11,174 - INFO - 127.0.0.1 - - [19/Feb/2025 20:44:11] "[33mGET /dashboard.html HTTP/1.1[0m" 404 -
+2025-02-19 20:44:12,111 - INFO - 127.0.0.1 - - [19/Feb/2025 20:44:12] "[33mGET /dashboard.html HTTP/1.1[0m" 404 -
+2025-02-19 20:44:15,292 - INFO - 127.0.0.1 - - [19/Feb/2025 20:44:15] "POST /login HTTP/1.1" 200 -
+2025-02-19 20:44:15,336 - INFO - 127.0.0.1 - - [19/Feb/2025 20:44:15] "[33mGET /dashboard.html HTTP/1.1[0m" 404 -
+2025-02-19 20:44:16,966 - INFO - 127.0.0.1 - - [19/Feb/2025 20:44:16] "[33mGET /dashboard.html HTTP/1.1[0m" 404 -
+2025-02-19 20:44:17,733 - INFO - 127.0.0.1 - - [19/Feb/2025 20:44:17] "[33mGET /dashboard.html HTTP/1.1[0m" 404 -
+2025-02-19 20:45:15,451 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-19 20:45:15,451 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-19 20:45:15,453 - INFO -  * Restarting with stat
+2025-02-19 20:45:16,557 - WARNING -  * Debugger is active!
+2025-02-19 20:45:16,564 - INFO -  * Debugger PIN: 859-764-681
+2025-02-19 20:45:18,724 - INFO - 127.0.0.1 - - [19/Feb/2025 20:45:18] "[33mGET /dashboard.html HTTP/1.1[0m" 404 -
+2025-02-19 20:45:22,327 - INFO - 127.0.0.1 - - [19/Feb/2025 20:45:22] "[33mGET /dashboard.html HTTP/1.1[0m" 404 -
+2025-02-19 20:45:25,730 - INFO - 127.0.0.1 - - [19/Feb/2025 20:45:25] "GET / HTTP/1.1" 200 -
+2025-02-19 20:45:25,918 - INFO - 127.0.0.1 - - [19/Feb/2025 20:45:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-19 20:45:25,949 - INFO - 127.0.0.1 - - [19/Feb/2025 20:45:25] "GET /static/js/login.js HTTP/1.1" 200 -
+2025-02-19 20:45:34,388 - INFO - 127.0.0.1 - - [19/Feb/2025 20:45:34] "POST /login HTTP/1.1" 200 -
+2025-02-19 20:45:34,422 - INFO - 127.0.0.1 - - [19/Feb/2025 20:45:34] "GET /dashboard HTTP/1.1" 200 -
+2025-02-19 20:45:34,475 - INFO - 127.0.0.1 - - [19/Feb/2025 20:45:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-19 20:45:34,485 - INFO - 127.0.0.1 - - [19/Feb/2025 20:45:34] "GET /static/images/logo.png HTTP/1.1" 200 -
+2025-02-19 20:45:34,516 - INFO - 127.0.0.1 - - [19/Feb/2025 20:45:34] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-02-19 20:45:55,686 - INFO - Successfully inserted 203 records
+2025-02-19 20:45:55,754 - INFO - 127.0.0.1 - - [19/Feb/2025 20:45:55] "POST /upload HTTP/1.1" 200 -
+2025-02-19 20:46:15,354 - INFO - Successfully inserted 512 records
+2025-02-19 20:46:15,445 - INFO - 127.0.0.1 - - [19/Feb/2025 20:46:15] "POST /upload HTTP/1.1" 200 -
+2025-02-19 20:46:19,028 - INFO - 127.0.0.1 - - [19/Feb/2025 20:46:19] "POST /search HTTP/1.1" 200 -
+2025-02-19 20:46:31,867 - INFO - 127.0.0.1 - - [19/Feb/2025 20:46:31] "POST /search HTTP/1.1" 200 -
+2025-02-19 20:46:47,037 - INFO - 127.0.0.1 - - [19/Feb/2025 20:46:47] "POST /search HTTP/1.1" 200 -
+2025-02-19 20:46:50,806 - INFO - 127.0.0.1 - - [19/Feb/2025 20:46:50] "POST /search HTTP/1.1" 200 -
+2025-02-19 20:46:51,905 - INFO - 127.0.0.1 - - [19/Feb/2025 20:46:51] "POST /search HTTP/1.1" 200 -
+2025-02-19 20:46:52,939 - INFO - 127.0.0.1 - - [19/Feb/2025 20:46:52] "POST /search HTTP/1.1" 200 -
+2025-02-19 20:46:53,135 - INFO - 127.0.0.1 - - [19/Feb/2025 20:46:53] "POST /search HTTP/1.1" 200 -
+2025-02-19 20:46:53,289 - INFO - 127.0.0.1 - - [19/Feb/2025 20:46:53] "POST /search HTTP/1.1" 200 -
+2025-02-19 20:46:53,468 - INFO - 127.0.0.1 - - [19/Feb/2025 20:46:53] "POST /search HTTP/1.1" 200 -
+2025-02-19 20:46:53,693 - INFO - 127.0.0.1 - - [19/Feb/2025 20:46:53] "POST /search HTTP/1.1" 200 -
+2025-02-19 20:46:58,992 - INFO - 127.0.0.1 - - [19/Feb/2025 20:46:58] "POST /search HTTP/1.1" 200 -
+2025-02-19 20:46:59,877 - INFO - 127.0.0.1 - - [19/Feb/2025 20:46:59] "POST /search HTTP/1.1" 200 -
+2025-02-19 20:47:00,103 - INFO - 127.0.0.1 - - [19/Feb/2025 20:47:00] "POST /search HTTP/1.1" 200 -
+2025-02-19 20:47:02,255 - INFO - 127.0.0.1 - - [19/Feb/2025 20:47:02] "POST /search HTTP/1.1" 200 -
+2025-02-19 20:47:05,036 - INFO - 127.0.0.1 - - [19/Feb/2025 20:47:05] "POST /search HTTP/1.1" 200 -
+2025-02-19 20:47:06,335 - INFO - 127.0.0.1 - - [19/Feb/2025 20:47:06] "POST /search HTTP/1.1" 200 -
+2025-02-19 20:47:09,374 - INFO - 127.0.0.1 - - [19/Feb/2025 20:47:09] "POST /search HTTP/1.1" 200 -
+2025-02-19 20:53:29,229 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-19 20:53:29,229 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-19 20:53:29,231 - INFO -  * Restarting with stat
+2025-02-19 20:53:30,329 - WARNING -  * Debugger is active!
+2025-02-19 20:53:30,336 - INFO -  * Debugger PIN: 859-764-681
+2025-02-19 20:53:43,004 - INFO - 127.0.0.1 - - [19/Feb/2025 20:53:43] "GET /dashboard HTTP/1.1" 200 -
+2025-02-19 20:53:43,252 - INFO - 127.0.0.1 - - [19/Feb/2025 20:53:43] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-19 20:53:43,256 - INFO - 127.0.0.1 - - [19/Feb/2025 20:53:43] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-19 20:53:43,260 - INFO - 127.0.0.1 - - [19/Feb/2025 20:53:43] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-19 20:53:56,992 - INFO - Successfully inserted 512 records
+2025-02-19 20:53:57,102 - INFO - 127.0.0.1 - - [19/Feb/2025 20:53:57] "POST /upload HTTP/1.1" 200 -
+2025-02-19 20:54:02,010 - INFO - Successfully inserted 512 records
+2025-02-19 20:54:02,099 - INFO - 127.0.0.1 - - [19/Feb/2025 20:54:02] "POST /upload HTTP/1.1" 200 -
+2025-02-19 20:54:03,032 - INFO - Successfully inserted 512 records
+2025-02-19 20:54:03,199 - INFO - 127.0.0.1 - - [19/Feb/2025 20:54:03] "POST /upload HTTP/1.1" 200 -
+2025-02-19 20:54:03,458 - INFO - Successfully inserted 512 records
+2025-02-19 20:54:03,562 - INFO - 127.0.0.1 - - [19/Feb/2025 20:54:03] "POST /upload HTTP/1.1" 200 -
+2025-02-19 20:54:03,580 - INFO - Successfully inserted 512 records
+2025-02-19 20:54:03,711 - INFO - 127.0.0.1 - - [19/Feb/2025 20:54:03] "POST /upload HTTP/1.1" 200 -
+2025-02-19 20:54:07,594 - INFO - 127.0.0.1 - - [19/Feb/2025 20:54:07] "GET / HTTP/1.1" 200 -
+2025-02-19 20:54:07,644 - INFO - 127.0.0.1 - - [19/Feb/2025 20:54:07] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-19 20:54:07,648 - INFO - 127.0.0.1 - - [19/Feb/2025 20:54:07] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-19 20:54:20,928 - INFO - 127.0.0.1 - - [19/Feb/2025 20:54:20] "POST /login HTTP/1.1" 200 -
+2025-02-19 20:54:20,964 - INFO - 127.0.0.1 - - [19/Feb/2025 20:54:20] "GET /dashboard HTTP/1.1" 200 -
+2025-02-19 20:54:21,015 - INFO - 127.0.0.1 - - [19/Feb/2025 20:54:21] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-19 20:54:21,023 - INFO - 127.0.0.1 - - [19/Feb/2025 20:54:21] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-19 20:54:21,025 - INFO - 127.0.0.1 - - [19/Feb/2025 20:54:21] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-19 20:54:28,463 - INFO - Successfully inserted 203 records
+2025-02-19 20:54:28,525 - INFO - 127.0.0.1 - - [19/Feb/2025 20:54:28] "POST /upload HTTP/1.1" 200 -
+2025-02-19 20:54:36,222 - INFO - Successfully inserted 203 records
+2025-02-19 20:54:36,284 - INFO - 127.0.0.1 - - [19/Feb/2025 20:54:36] "POST /upload HTTP/1.1" 200 -
+2025-02-19 20:55:43,447 - INFO - 127.0.0.1 - - [19/Feb/2025 20:55:43] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-19 20:55:58,975 - INFO - Successfully inserted 203 records
+2025-02-19 20:55:59,082 - INFO - 127.0.0.1 - - [19/Feb/2025 20:55:59] "POST /upload HTTP/1.1" 200 -
+2025-02-19 20:55:59,235 - INFO - Successfully inserted 203 records
+2025-02-19 20:55:59,328 - INFO - 127.0.0.1 - - [19/Feb/2025 20:55:59] "POST /upload HTTP/1.1" 200 -
+2025-02-19 20:55:59,456 - INFO - Successfully inserted 203 records
+2025-02-19 20:55:59,517 - INFO - 127.0.0.1 - - [19/Feb/2025 20:55:59] "POST /upload HTTP/1.1" 200 -
+2025-02-19 20:55:59,939 - INFO - Successfully inserted 203 records
+2025-02-19 20:56:00,046 - INFO - 127.0.0.1 - - [19/Feb/2025 20:56:00] "POST /upload HTTP/1.1" 200 -
+2025-02-19 20:56:00,207 - INFO - Successfully inserted 203 records
+2025-02-19 20:56:00,357 - INFO - 127.0.0.1 - - [19/Feb/2025 20:56:00] "POST /upload HTTP/1.1" 200 -
+2025-02-19 20:56:00,383 - INFO - Successfully inserted 203 records
+2025-02-19 20:56:00,452 - INFO - 127.0.0.1 - - [19/Feb/2025 20:56:00] "POST /upload HTTP/1.1" 200 -
+2025-02-19 21:19:03,948 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-19 21:19:03,948 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-19 21:19:03,951 - INFO -  * Restarting with stat
+2025-02-19 21:19:05,517 - WARNING -  * Debugger is active!
+2025-02-19 21:19:05,527 - INFO -  * Debugger PIN: 859-764-681
+2025-02-19 21:19:07,176 - INFO - 127.0.0.1 - - [19/Feb/2025 21:19:07] "GET /dashboard HTTP/1.1" 200 -
+2025-02-19 21:19:07,534 - INFO - 127.0.0.1 - - [19/Feb/2025 21:19:07] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-19 21:19:07,548 - INFO - 127.0.0.1 - - [19/Feb/2025 21:19:07] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-02-19 21:19:07,563 - INFO - 127.0.0.1 - - [19/Feb/2025 21:19:07] "GET /static/images/logo.png HTTP/1.1" 200 -
+2025-02-19 21:19:17,530 - INFO - 127.0.0.1 - - [19/Feb/2025 21:19:17] "GET / HTTP/1.1" 200 -
+2025-02-19 21:19:17,582 - INFO - 127.0.0.1 - - [19/Feb/2025 21:19:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-19 21:19:17,593 - INFO - 127.0.0.1 - - [19/Feb/2025 21:19:17] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-19 21:19:19,363 - INFO - 127.0.0.1 - - [19/Feb/2025 21:19:19] "POST /login HTTP/1.1" 200 -
+2025-02-19 21:19:19,385 - INFO - 127.0.0.1 - - [19/Feb/2025 21:19:19] "GET /dashboard HTTP/1.1" 200 -
+2025-02-19 21:19:19,440 - INFO - 127.0.0.1 - - [19/Feb/2025 21:19:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-19 21:19:19,442 - INFO - 127.0.0.1 - - [19/Feb/2025 21:19:19] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-19 21:19:19,445 - INFO - 127.0.0.1 - - [19/Feb/2025 21:19:19] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-19 21:20:06,395 - INFO - 127.0.0.1 - - [19/Feb/2025 21:20:06] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-19 21:21:38,703 - INFO - 127.0.0.1 - - [19/Feb/2025 21:21:38] "GET /dashboard HTTP/1.1" 200 -
+2025-02-19 21:21:38,853 - INFO - 127.0.0.1 - - [19/Feb/2025 21:21:38] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-19 21:21:38,857 - INFO - 127.0.0.1 - - [19/Feb/2025 21:21:38] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-19 21:21:38,861 - INFO - 127.0.0.1 - - [19/Feb/2025 21:21:38] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-19 21:22:10,391 - INFO - Successfully inserted 512 records
+2025-02-19 21:22:10,515 - INFO - 127.0.0.1 - - [19/Feb/2025 21:22:10] "POST /upload HTTP/1.1" 200 -
+2025-02-19 22:16:21,519 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-19 22:16:21,519 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-19 22:16:21,520 - INFO -  * Restarting with stat
+2025-02-19 22:16:22,630 - WARNING -  * Debugger is active!
+2025-02-19 22:16:22,639 - INFO -  * Debugger PIN: 859-764-681
+2025-02-19 22:16:26,361 - INFO - 127.0.0.1 - - [19/Feb/2025 22:16:26] "GET / HTTP/1.1" 200 -
+2025-02-19 22:16:26,565 - INFO - 127.0.0.1 - - [19/Feb/2025 22:16:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-19 22:16:26,580 - INFO - 127.0.0.1 - - [19/Feb/2025 22:16:26] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-19 22:16:32,456 - INFO - 127.0.0.1 - - [19/Feb/2025 22:16:32] "POST /login HTTP/1.1" 200 -
+2025-02-19 22:16:32,503 - INFO - 127.0.0.1 - - [19/Feb/2025 22:16:32] "GET /dashboard HTTP/1.1" 200 -
+2025-02-19 22:16:32,543 - INFO - 127.0.0.1 - - [19/Feb/2025 22:16:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-19 22:16:32,551 - INFO - 127.0.0.1 - - [19/Feb/2025 22:16:32] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-19 22:16:32,552 - INFO - 127.0.0.1 - - [19/Feb/2025 22:16:32] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-19 22:18:09,600 - INFO - 127.0.0.1 - - [19/Feb/2025 22:18:09] "GET /dashboard HTTP/1.1" 200 -
+2025-02-19 22:18:09,653 - INFO - 127.0.0.1 - - [19/Feb/2025 22:18:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-19 22:18:09,657 - INFO - 127.0.0.1 - - [19/Feb/2025 22:18:09] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-19 22:18:09,660 - INFO - 127.0.0.1 - - [19/Feb/2025 22:18:09] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-19 22:35:08,519 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-19 22:35:08,519 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-19 22:35:08,522 - INFO -  * Restarting with stat
+2025-02-19 22:35:09,749 - WARNING -  * Debugger is active!
+2025-02-19 22:35:09,758 - INFO -  * Debugger PIN: 859-764-681
+2025-02-19 22:35:20,432 - INFO - 127.0.0.1 - - [19/Feb/2025 22:35:20] "GET / HTTP/1.1" 200 -
+2025-02-19 22:35:20,733 - INFO - 127.0.0.1 - - [19/Feb/2025 22:35:20] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-19 22:35:20,749 - INFO - 127.0.0.1 - - [19/Feb/2025 22:35:20] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-19 22:44:27,691 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-19 22:44:27,691 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-19 22:44:27,694 - INFO -  * Restarting with stat
+2025-02-19 22:44:28,946 - WARNING -  * Debugger is active!
+2025-02-19 22:44:28,955 - INFO -  * Debugger PIN: 859-764-681
+2025-02-19 22:44:34,093 - INFO - 127.0.0.1 - - [19/Feb/2025 22:44:34] "GET / HTTP/1.1" 200 -
+2025-02-19 22:44:34,293 - INFO - 127.0.0.1 - - [19/Feb/2025 22:44:34] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-19 22:44:34,307 - INFO - 127.0.0.1 - - [19/Feb/2025 22:44:34] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-19 22:44:39,511 - INFO - 127.0.0.1 - - [19/Feb/2025 22:44:39] "POST /login HTTP/1.1" 200 -
+2025-02-19 22:44:39,568 - INFO - 127.0.0.1 - - [19/Feb/2025 22:44:39] "GET /dashboard HTTP/1.1" 200 -
+2025-02-19 22:44:39,610 - INFO - 127.0.0.1 - - [19/Feb/2025 22:44:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-19 22:44:39,629 - INFO - 127.0.0.1 - - [19/Feb/2025 22:44:39] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-19 22:44:39,658 - INFO - 127.0.0.1 - - [19/Feb/2025 22:44:39] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-19 22:47:08,384 - INFO - 127.0.0.1 - - [19/Feb/2025 22:47:08] "GET /dashboard HTTP/1.1" 200 -
+2025-02-19 22:47:08,441 - INFO - 127.0.0.1 - - [19/Feb/2025 22:47:08] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-19 22:47:08,442 - INFO - 127.0.0.1 - - [19/Feb/2025 22:47:08] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-19 22:47:08,444 - INFO - 127.0.0.1 - - [19/Feb/2025 22:47:08] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-19 22:47:12,997 - INFO - 127.0.0.1 - - [19/Feb/2025 22:47:12] "GET / HTTP/1.1" 200 -
+2025-02-19 22:47:13,040 - INFO - 127.0.0.1 - - [19/Feb/2025 22:47:13] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-19 22:47:13,046 - INFO - 127.0.0.1 - - [19/Feb/2025 22:47:13] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-19 22:48:17,290 - INFO - 127.0.0.1 - - [19/Feb/2025 22:48:17] "GET / HTTP/1.1" 200 -
+2025-02-19 22:48:17,329 - INFO - 127.0.0.1 - - [19/Feb/2025 22:48:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-19 22:48:17,334 - INFO - 127.0.0.1 - - [19/Feb/2025 22:48:17] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-19 22:48:19,524 - INFO - 127.0.0.1 - - [19/Feb/2025 22:48:19] "POST /login HTTP/1.1" 200 -
+2025-02-19 22:48:19,554 - INFO - 127.0.0.1 - - [19/Feb/2025 22:48:19] "GET /dashboard HTTP/1.1" 200 -
+2025-02-19 22:48:19,607 - INFO - 127.0.0.1 - - [19/Feb/2025 22:48:19] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-19 22:48:19,608 - INFO - 127.0.0.1 - - [19/Feb/2025 22:48:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-19 22:48:19,610 - INFO - 127.0.0.1 - - [19/Feb/2025 22:48:19] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-19 22:48:26,626 - INFO - 127.0.0.1 - - [19/Feb/2025 22:48:26] "[31m[1mPOST /search HTTP/1.1[0m" 400 -
+2025-02-19 23:15:02,048 - INFO - 127.0.0.1 - - [19/Feb/2025 23:15:02] "GET / HTTP/1.1" 200 -
+2025-02-19 23:15:02,108 - INFO - 127.0.0.1 - - [19/Feb/2025 23:15:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-19 23:15:02,111 - INFO - 127.0.0.1 - - [19/Feb/2025 23:15:02] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-20 09:21:11,714 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-20 09:21:11,715 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-20 09:21:11,723 - INFO -  * Restarting with stat
+2025-02-20 09:21:14,006 - WARNING -  * Debugger is active!
+2025-02-20 09:21:14,017 - INFO -  * Debugger PIN: 110-580-769
+2025-02-20 09:21:18,541 - INFO - 127.0.0.1 - - [20/Feb/2025 09:21:18] "GET / HTTP/1.1" 200 -
+2025-02-20 09:21:18,904 - INFO - 127.0.0.1 - - [20/Feb/2025 09:21:18] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-20 09:21:18,960 - INFO - 127.0.0.1 - - [20/Feb/2025 09:21:18] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-20 09:21:19,005 - INFO - 127.0.0.1 - - [20/Feb/2025 09:21:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-20 09:21:22,959 - INFO - 127.0.0.1 - - [20/Feb/2025 09:21:22] "GET / HTTP/1.1" 200 -
+2025-02-20 09:21:23,049 - INFO - 127.0.0.1 - - [20/Feb/2025 09:21:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 09:21:23,050 - INFO - 127.0.0.1 - - [20/Feb/2025 09:21:23] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-20 09:21:38,535 - INFO - 127.0.0.1 - - [20/Feb/2025 09:21:38] "GET / HTTP/1.1" 200 -
+2025-02-20 09:21:38,667 - INFO - 127.0.0.1 - - [20/Feb/2025 09:21:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 09:21:38,675 - INFO - 127.0.0.1 - - [20/Feb/2025 09:21:38] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-20 09:21:40,193 - INFO - 127.0.0.1 - - [20/Feb/2025 09:21:40] "GET / HTTP/1.1" 200 -
+2025-02-20 09:21:40,345 - INFO - 127.0.0.1 - - [20/Feb/2025 09:21:40] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-20 09:21:40,348 - INFO - 127.0.0.1 - - [20/Feb/2025 09:21:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 09:21:53,096 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-20 09:21:53,097 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-20 09:21:53,100 - INFO -  * Restarting with stat
+2025-02-20 09:21:55,208 - WARNING -  * Debugger is active!
+2025-02-20 09:21:55,224 - INFO -  * Debugger PIN: 110-580-769
+2025-02-20 09:21:56,521 - INFO - 127.0.0.1 - - [20/Feb/2025 09:21:56] "GET / HTTP/1.1" 200 -
+2025-02-20 09:21:56,899 - INFO - 127.0.0.1 - - [20/Feb/2025 09:21:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 09:21:56,912 - INFO - 127.0.0.1 - - [20/Feb/2025 09:21:56] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-20 09:21:58,640 - INFO - 127.0.0.1 - - [20/Feb/2025 09:21:58] "GET / HTTP/1.1" 200 -
+2025-02-20 09:21:58,777 - INFO - 127.0.0.1 - - [20/Feb/2025 09:21:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 09:21:58,779 - INFO - 127.0.0.1 - - [20/Feb/2025 09:21:58] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-20 09:22:46,295 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-20 09:22:46,296 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-20 09:22:46,300 - INFO -  * Restarting with stat
+2025-02-20 09:22:48,922 - WARNING -  * Debugger is active!
+2025-02-20 09:22:48,940 - INFO -  * Debugger PIN: 110-580-769
+2025-02-20 09:22:49,471 - INFO - 127.0.0.1 - - [20/Feb/2025 09:22:49] "GET / HTTP/1.1" 200 -
+2025-02-20 09:22:49,849 - INFO - 127.0.0.1 - - [20/Feb/2025 09:22:49] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-20 09:22:49,864 - INFO - 127.0.0.1 - - [20/Feb/2025 09:22:49] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-20 09:22:54,520 - INFO - 127.0.0.1 - - [20/Feb/2025 09:22:54] "GET / HTTP/1.1" 200 -
+2025-02-20 09:22:54,664 - INFO - 127.0.0.1 - - [20/Feb/2025 09:22:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 09:22:54,682 - INFO - 127.0.0.1 - - [20/Feb/2025 09:22:54] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-20 09:22:56,176 - INFO - 127.0.0.1 - - [20/Feb/2025 09:22:56] "POST /login HTTP/1.1" 200 -
+2025-02-20 09:22:56,278 - INFO - 127.0.0.1 - - [20/Feb/2025 09:22:56] "GET /dashboard HTTP/1.1" 200 -
+2025-02-20 09:22:56,339 - INFO - 127.0.0.1 - - [20/Feb/2025 09:22:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 09:22:56,365 - INFO - 127.0.0.1 - - [20/Feb/2025 09:22:56] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-20 09:22:56,415 - INFO - 127.0.0.1 - - [20/Feb/2025 09:22:56] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-20 09:23:01,584 - INFO - 127.0.0.1 - - [20/Feb/2025 09:23:01] "GET / HTTP/1.1" 200 -
+2025-02-20 09:23:01,661 - INFO - 127.0.0.1 - - [20/Feb/2025 09:23:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 09:23:01,667 - INFO - 127.0.0.1 - - [20/Feb/2025 09:23:01] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-20 09:23:03,677 - INFO - 127.0.0.1 - - [20/Feb/2025 09:23:03] "GET / HTTP/1.1" 200 -
+2025-02-20 09:23:03,827 - INFO - 127.0.0.1 - - [20/Feb/2025 09:23:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 09:23:03,830 - INFO - 127.0.0.1 - - [20/Feb/2025 09:23:03] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-20 09:23:32,763 - INFO - 127.0.0.1 - - [20/Feb/2025 09:23:32] "GET / HTTP/1.1" 200 -
+2025-02-20 09:23:32,834 - INFO - 127.0.0.1 - - [20/Feb/2025 09:23:32] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-20 09:23:32,860 - INFO - 127.0.0.1 - - [20/Feb/2025 09:23:32] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-20 09:23:33,941 - INFO - 127.0.0.1 - - [20/Feb/2025 09:23:33] "GET / HTTP/1.1" 200 -
+2025-02-20 09:23:34,037 - INFO - 127.0.0.1 - - [20/Feb/2025 09:23:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 09:23:34,082 - INFO - 127.0.0.1 - - [20/Feb/2025 09:23:34] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-20 09:23:34,094 - INFO - 127.0.0.1 - - [20/Feb/2025 09:23:34] "GET / HTTP/1.1" 200 -
+2025-02-20 09:23:34,316 - INFO - 127.0.0.1 - - [20/Feb/2025 09:23:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 09:23:34,332 - INFO - 127.0.0.1 - - [20/Feb/2025 09:23:34] "GET / HTTP/1.1" 200 -
+2025-02-20 09:23:34,353 - INFO - 127.0.0.1 - - [20/Feb/2025 09:23:34] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-20 09:23:34,415 - INFO - 127.0.0.1 - - [20/Feb/2025 09:23:34] "GET / HTTP/1.1" 200 -
+2025-02-20 09:23:34,454 - INFO - 127.0.0.1 - - [20/Feb/2025 09:23:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 09:23:34,519 - INFO - 127.0.0.1 - - [20/Feb/2025 09:23:34] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-20 09:23:34,529 - INFO - 127.0.0.1 - - [20/Feb/2025 09:23:34] "GET /static/js/login.js HTTP/1.1" 200 -
+2025-02-20 09:23:46,470 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-20 09:23:46,471 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-20 09:23:46,477 - INFO -  * Restarting with stat
+2025-02-20 09:23:49,041 - WARNING -  * Debugger is active!
+2025-02-20 09:23:49,061 - INFO -  * Debugger PIN: 110-580-769
+2025-02-20 09:23:49,163 - INFO - 127.0.0.1 - - [20/Feb/2025 09:23:49] "GET / HTTP/1.1" 200 -
+2025-02-20 09:23:49,487 - INFO - 127.0.0.1 - - [20/Feb/2025 09:23:49] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 09:23:49,490 - INFO - 127.0.0.1 - - [20/Feb/2025 09:23:49] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-20 09:23:55,716 - INFO - 127.0.0.1 - - [20/Feb/2025 09:23:55] "GET / HTTP/1.1" 200 -
+2025-02-20 09:23:55,813 - INFO - 127.0.0.1 - - [20/Feb/2025 09:23:55] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-20 09:23:55,813 - INFO - 127.0.0.1 - - [20/Feb/2025 09:23:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 09:24:10,094 - INFO - 127.0.0.1 - - [20/Feb/2025 09:24:10] "GET / HTTP/1.1" 200 -
+2025-02-20 09:24:10,244 - INFO - 127.0.0.1 - - [20/Feb/2025 09:24:10] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 09:24:10,261 - INFO - 127.0.0.1 - - [20/Feb/2025 09:24:10] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-20 09:24:20,457 - INFO - 127.0.0.1 - - [20/Feb/2025 09:24:20] "GET / HTTP/1.1" 200 -
+2025-02-20 09:24:20,535 - INFO - 127.0.0.1 - - [20/Feb/2025 09:24:20] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 09:24:20,538 - INFO - 127.0.0.1 - - [20/Feb/2025 09:24:20] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-20 09:24:25,984 - INFO - 127.0.0.1 - - [20/Feb/2025 09:24:25] "GET / HTTP/1.1" 200 -
+2025-02-20 09:24:26,112 - INFO - 127.0.0.1 - - [20/Feb/2025 09:24:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 09:24:26,114 - INFO - 127.0.0.1 - - [20/Feb/2025 09:24:26] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-20 09:24:28,094 - INFO - 127.0.0.1 - - [20/Feb/2025 09:24:28] "POST /login HTTP/1.1" 200 -
+2025-02-20 09:24:28,142 - INFO - 127.0.0.1 - - [20/Feb/2025 09:24:28] "GET /dashboard HTTP/1.1" 200 -
+2025-02-20 09:24:28,198 - INFO - 127.0.0.1 - - [20/Feb/2025 09:24:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 09:24:28,211 - INFO - 127.0.0.1 - - [20/Feb/2025 09:24:28] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-20 09:24:28,212 - INFO - 127.0.0.1 - - [20/Feb/2025 09:24:28] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-20 09:25:11,270 - INFO - 127.0.0.1 - - [20/Feb/2025 09:25:11] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-02-20 09:25:13,789 - INFO - 127.0.0.1 - - [20/Feb/2025 09:25:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-20 09:31:33,224 - INFO - 127.0.0.1 - - [20/Feb/2025 09:31:33] "GET / HTTP/1.1" 200 -
+2025-02-20 09:31:33,384 - INFO - 127.0.0.1 - - [20/Feb/2025 09:31:33] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-20 09:31:33,388 - INFO - 127.0.0.1 - - [20/Feb/2025 09:31:33] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-20 09:31:34,681 - INFO - 127.0.0.1 - - [20/Feb/2025 09:31:34] "GET / HTTP/1.1" 200 -
+2025-02-20 09:31:34,806 - INFO - 127.0.0.1 - - [20/Feb/2025 09:31:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 09:31:34,809 - INFO - 127.0.0.1 - - [20/Feb/2025 09:31:34] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-20 09:31:38,601 - INFO - 127.0.0.1 - - [20/Feb/2025 09:31:38] "POST /login HTTP/1.1" 200 -
+2025-02-20 09:31:38,645 - INFO - 127.0.0.1 - - [20/Feb/2025 09:31:38] "GET /dashboard HTTP/1.1" 200 -
+2025-02-20 09:31:38,701 - INFO - 127.0.0.1 - - [20/Feb/2025 09:31:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 09:31:38,712 - INFO - 127.0.0.1 - - [20/Feb/2025 09:31:38] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-20 09:31:38,714 - INFO - 127.0.0.1 - - [20/Feb/2025 09:31:38] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-20 09:32:00,681 - INFO - 127.0.0.1 - - [20/Feb/2025 09:32:00] "GET / HTTP/1.1" 200 -
+2025-02-20 09:32:00,823 - INFO - 127.0.0.1 - - [20/Feb/2025 09:32:00] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-20 09:32:00,825 - INFO - 127.0.0.1 - - [20/Feb/2025 09:32:00] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-20 09:32:01,952 - INFO - 127.0.0.1 - - [20/Feb/2025 09:32:01] "GET / HTTP/1.1" 200 -
+2025-02-20 09:32:02,053 - INFO - 127.0.0.1 - - [20/Feb/2025 09:32:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 09:32:02,071 - INFO - 127.0.0.1 - - [20/Feb/2025 09:32:02] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-20 09:32:02,097 - INFO - 127.0.0.1 - - [20/Feb/2025 09:32:02] "GET / HTTP/1.1" 200 -
+2025-02-20 09:32:02,185 - INFO - 127.0.0.1 - - [20/Feb/2025 09:32:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 09:32:02,187 - INFO - 127.0.0.1 - - [20/Feb/2025 09:32:02] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-20 09:32:02,286 - INFO - 127.0.0.1 - - [20/Feb/2025 09:32:02] "GET / HTTP/1.1" 200 -
+2025-02-20 09:32:02,366 - INFO - 127.0.0.1 - - [20/Feb/2025 09:32:02] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-20 09:32:02,368 - INFO - 127.0.0.1 - - [20/Feb/2025 09:32:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 09:32:20,590 - INFO - 127.0.0.1 - - [20/Feb/2025 09:32:20] "GET / HTTP/1.1" 200 -
+2025-02-20 09:32:20,813 - INFO - 127.0.0.1 - - [20/Feb/2025 09:32:20] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-20 09:32:20,866 - INFO - 127.0.0.1 - - [20/Feb/2025 09:32:20] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-20 09:32:42,798 - INFO - 127.0.0.1 - - [20/Feb/2025 09:32:42] "GET / HTTP/1.1" 200 -
+2025-02-20 09:32:42,938 - INFO - 127.0.0.1 - - [20/Feb/2025 09:32:42] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-20 09:32:42,943 - INFO - 127.0.0.1 - - [20/Feb/2025 09:32:42] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-20 09:32:43,599 - INFO - 127.0.0.1 - - [20/Feb/2025 09:32:43] "GET / HTTP/1.1" 200 -
+2025-02-20 09:32:43,715 - INFO - 127.0.0.1 - - [20/Feb/2025 09:32:43] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 09:32:43,716 - INFO - 127.0.0.1 - - [20/Feb/2025 09:32:43] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-20 22:03:52,407 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-20 22:03:52,408 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-20 22:03:52,412 - INFO -  * Restarting with stat
+2025-02-20 22:03:53,674 - WARNING -  * Debugger is active!
+2025-02-20 22:03:53,682 - INFO -  * Debugger PIN: 110-580-769
+2025-02-20 22:03:57,626 - INFO - 127.0.0.1 - - [20/Feb/2025 22:03:57] "POST /login HTTP/1.1" 200 -
+2025-02-20 22:03:57,657 - INFO - 127.0.0.1 - - [20/Feb/2025 22:03:57] "GET /dashboard HTTP/1.1" 200 -
+2025-02-20 22:03:57,870 - INFO - 127.0.0.1 - - [20/Feb/2025 22:03:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 22:03:57,937 - INFO - 127.0.0.1 - - [20/Feb/2025 22:03:57] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-20 22:03:57,985 - INFO - 127.0.0.1 - - [20/Feb/2025 22:03:57] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-20 22:03:58,038 - INFO - 127.0.0.1 - - [20/Feb/2025 22:03:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-20 22:04:01,618 - INFO - 127.0.0.1 - - [20/Feb/2025 22:04:01] "GET /dashboard HTTP/1.1" 200 -
+2025-02-20 22:04:01,671 - INFO - 127.0.0.1 - - [20/Feb/2025 22:04:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 22:04:01,675 - INFO - 127.0.0.1 - - [20/Feb/2025 22:04:01] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-20 22:04:01,679 - INFO - 127.0.0.1 - - [20/Feb/2025 22:04:01] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-20 22:08:37,528 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-20 22:08:37,528 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-20 22:08:37,532 - INFO -  * Restarting with stat
+2025-02-20 22:08:38,665 - WARNING -  * Debugger is active!
+2025-02-20 22:08:38,672 - INFO -  * Debugger PIN: 110-580-769
+2025-02-20 22:08:54,174 - INFO - 127.0.0.1 - - [20/Feb/2025 22:08:54] "GET /dashboard HTTP/1.1" 200 -
+2025-02-20 22:08:54,415 - INFO - 127.0.0.1 - - [20/Feb/2025 22:08:54] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-20 22:08:54,431 - INFO - 127.0.0.1 - - [20/Feb/2025 22:08:54] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-20 22:08:54,436 - INFO - 127.0.0.1 - - [20/Feb/2025 22:08:54] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-20 22:09:03,237 - INFO - 127.0.0.1 - - [20/Feb/2025 22:09:03] "GET / HTTP/1.1" 200 -
+2025-02-20 22:09:03,353 - INFO - 127.0.0.1 - - [20/Feb/2025 22:09:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 22:09:03,387 - INFO - 127.0.0.1 - - [20/Feb/2025 22:09:03] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-20 22:09:12,459 - INFO - 127.0.0.1 - - [20/Feb/2025 22:09:12] "POST /login HTTP/1.1" 200 -
+2025-02-20 22:09:12,488 - INFO - 127.0.0.1 - - [20/Feb/2025 22:09:12] "GET /dashboard HTTP/1.1" 200 -
+2025-02-20 22:09:12,554 - INFO - 127.0.0.1 - - [20/Feb/2025 22:09:12] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 22:09:12,555 - INFO - 127.0.0.1 - - [20/Feb/2025 22:09:12] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-20 22:09:12,558 - INFO - 127.0.0.1 - - [20/Feb/2025 22:09:12] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-20 22:14:53,083 - INFO - 127.0.0.1 - - [20/Feb/2025 22:14:53] "GET /dashboard HTTP/1.1" 200 -
+2025-02-20 22:14:53,151 - INFO - 127.0.0.1 - - [20/Feb/2025 22:14:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 22:14:53,158 - INFO - 127.0.0.1 - - [20/Feb/2025 22:14:53] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-20 22:14:53,162 - INFO - 127.0.0.1 - - [20/Feb/2025 22:14:53] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-20 22:14:55,757 - INFO - 127.0.0.1 - - [20/Feb/2025 22:14:55] "GET /dashboard HTTP/1.1" 200 -
+2025-02-20 22:14:55,815 - INFO - 127.0.0.1 - - [20/Feb/2025 22:14:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 22:14:55,826 - INFO - 127.0.0.1 - - [20/Feb/2025 22:14:55] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-20 22:14:55,838 - INFO - 127.0.0.1 - - [20/Feb/2025 22:14:55] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-20 22:15:03,304 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-20 22:15:03,304 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-20 22:15:03,307 - INFO -  * Restarting with stat
+2025-02-20 22:15:04,625 - WARNING -  * Debugger is active!
+2025-02-20 22:15:04,633 - INFO -  * Debugger PIN: 110-580-769
+2025-02-20 22:15:04,694 - INFO - 127.0.0.1 - - [20/Feb/2025 22:15:04] "GET /dashboard HTTP/1.1" 200 -
+2025-02-20 22:15:04,945 - INFO - 127.0.0.1 - - [20/Feb/2025 22:15:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 22:15:04,948 - INFO - 127.0.0.1 - - [20/Feb/2025 22:15:04] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-20 22:15:04,954 - INFO - 127.0.0.1 - - [20/Feb/2025 22:15:04] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-20 22:15:05,862 - INFO - 127.0.0.1 - - [20/Feb/2025 22:15:05] "GET /dashboard HTTP/1.1" 200 -
+2025-02-20 22:15:05,906 - INFO - 127.0.0.1 - - [20/Feb/2025 22:15:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 22:15:05,921 - INFO - 127.0.0.1 - - [20/Feb/2025 22:15:05] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-20 22:15:05,928 - INFO - 127.0.0.1 - - [20/Feb/2025 22:15:05] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-20 22:15:06,168 - INFO - 127.0.0.1 - - [20/Feb/2025 22:15:06] "GET /dashboard HTTP/1.1" 200 -
+2025-02-20 22:15:06,211 - INFO - 127.0.0.1 - - [20/Feb/2025 22:15:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 22:15:06,217 - INFO - 127.0.0.1 - - [20/Feb/2025 22:15:06] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-20 22:15:06,218 - INFO - 127.0.0.1 - - [20/Feb/2025 22:15:06] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-20 22:15:06,451 - INFO - 127.0.0.1 - - [20/Feb/2025 22:15:06] "GET /dashboard HTTP/1.1" 200 -
+2025-02-20 22:15:06,497 - INFO - 127.0.0.1 - - [20/Feb/2025 22:15:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 22:15:06,502 - INFO - 127.0.0.1 - - [20/Feb/2025 22:15:06] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-20 22:15:06,503 - INFO - 127.0.0.1 - - [20/Feb/2025 22:15:06] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-20 22:15:06,669 - INFO - 127.0.0.1 - - [20/Feb/2025 22:15:06] "GET /dashboard HTTP/1.1" 200 -
+2025-02-20 22:15:06,722 - INFO - 127.0.0.1 - - [20/Feb/2025 22:15:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 22:15:06,730 - INFO - 127.0.0.1 - - [20/Feb/2025 22:15:06] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-20 22:15:06,731 - INFO - 127.0.0.1 - - [20/Feb/2025 22:15:06] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-20 22:28:03,095 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-20 22:28:03,096 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-20 22:28:03,099 - INFO -  * Restarting with stat
+2025-02-20 22:28:04,319 - WARNING -  * Debugger is active!
+2025-02-20 22:28:04,325 - INFO -  * Debugger PIN: 110-580-769
+2025-02-20 22:28:06,322 - INFO - 127.0.0.1 - - [20/Feb/2025 22:28:06] "GET /dashboard HTTP/1.1" 200 -
+2025-02-20 22:28:06,606 - INFO - 127.0.0.1 - - [20/Feb/2025 22:28:06] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-20 22:28:06,607 - INFO - 127.0.0.1 - - [20/Feb/2025 22:28:06] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-02-20 22:28:06,610 - INFO - 127.0.0.1 - - [20/Feb/2025 22:28:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 22:28:14,477 - INFO - Successfully inserted 512 records
+2025-02-20 22:28:14,593 - INFO - 127.0.0.1 - - [20/Feb/2025 22:28:14] "POST /upload HTTP/1.1" 200 -
+2025-02-20 22:28:19,851 - INFO - 127.0.0.1 - - [20/Feb/2025 22:28:19] "POST /search HTTP/1.1" 200 -
+2025-02-20 22:28:28,148 - INFO - 127.0.0.1 - - [20/Feb/2025 22:28:28] "POST /search HTTP/1.1" 200 -
+2025-02-20 22:28:32,232 - INFO - 127.0.0.1 - - [20/Feb/2025 22:28:32] "POST /search HTTP/1.1" 200 -
+2025-02-20 22:28:35,407 - INFO - 127.0.0.1 - - [20/Feb/2025 22:28:35] "POST /search HTTP/1.1" 200 -
+2025-02-20 22:28:36,833 - INFO - 127.0.0.1 - - [20/Feb/2025 22:28:36] "POST /search HTTP/1.1" 200 -
+2025-02-20 22:29:47,676 - INFO - 127.0.0.1 - - [20/Feb/2025 22:29:47] "POST /search HTTP/1.1" 200 -
+2025-02-20 22:29:48,584 - INFO - 127.0.0.1 - - [20/Feb/2025 22:29:48] "POST /search HTTP/1.1" 200 -
+2025-02-20 22:29:51,572 - INFO - 127.0.0.1 - - [20/Feb/2025 22:29:51] "POST /search HTTP/1.1" 200 -
+2025-02-20 22:29:54,024 - INFO - 127.0.0.1 - - [20/Feb/2025 22:29:54] "POST /search HTTP/1.1" 200 -
+2025-02-20 22:29:56,671 - INFO - 127.0.0.1 - - [20/Feb/2025 22:29:56] "POST /search HTTP/1.1" 200 -
+2025-02-20 22:29:59,728 - INFO - 127.0.0.1 - - [20/Feb/2025 22:29:59] "POST /search HTTP/1.1" 200 -
+2025-02-20 22:30:01,965 - INFO - 127.0.0.1 - - [20/Feb/2025 22:30:01] "POST /search HTTP/1.1" 200 -
+2025-02-20 22:30:04,968 - INFO - 127.0.0.1 - - [20/Feb/2025 22:30:04] "POST /search HTTP/1.1" 200 -
+2025-02-20 22:30:08,925 - INFO - 127.0.0.1 - - [20/Feb/2025 22:30:08] "POST /search HTTP/1.1" 200 -
+2025-02-20 22:30:15,771 - INFO - 127.0.0.1 - - [20/Feb/2025 22:30:15] "POST /search HTTP/1.1" 200 -
+2025-02-20 22:30:18,133 - INFO - 127.0.0.1 - - [20/Feb/2025 22:30:18] "POST /search HTTP/1.1" 200 -
+2025-02-20 22:30:20,365 - INFO - 127.0.0.1 - - [20/Feb/2025 22:30:20] "POST /search HTTP/1.1" 200 -
+2025-02-20 22:30:21,134 - INFO - 127.0.0.1 - - [20/Feb/2025 22:30:21] "POST /search HTTP/1.1" 200 -
+2025-02-20 22:30:21,311 - INFO - 127.0.0.1 - - [20/Feb/2025 22:30:21] "POST /search HTTP/1.1" 200 -
+2025-02-20 22:30:24,509 - INFO - 127.0.0.1 - - [20/Feb/2025 22:30:24] "POST /search HTTP/1.1" 200 -
+2025-02-20 22:43:44,487 - INFO -  * Detected change in 'D:\\INTERN\\Project\\server.py', reloading
+2025-02-20 22:43:44,629 - INFO -  * Restarting with stat
+2025-02-20 22:43:50,808 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-20 22:43:50,808 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-20 22:43:50,811 - INFO -  * Restarting with stat
+2025-02-20 22:43:51,924 - WARNING -  * Debugger is active!
+2025-02-20 22:43:51,931 - INFO -  * Debugger PIN: 110-580-769
+2025-02-20 22:43:57,393 - INFO - 127.0.0.1 - - [20/Feb/2025 22:43:57] "GET /dashboard HTTP/1.1" 200 -
+2025-02-20 22:43:57,646 - INFO - 127.0.0.1 - - [20/Feb/2025 22:43:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 22:43:57,650 - INFO - 127.0.0.1 - - [20/Feb/2025 22:43:57] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-20 22:43:57,652 - INFO - 127.0.0.1 - - [20/Feb/2025 22:43:57] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-20 22:44:04,697 - INFO - Successfully inserted 512 records
+2025-02-20 22:44:04,817 - INFO - 127.0.0.1 - - [20/Feb/2025 22:44:04] "POST /upload HTTP/1.1" 200 -
+2025-02-20 22:44:08,199 - INFO - 127.0.0.1 - - [20/Feb/2025 22:44:08] "POST /search HTTP/1.1" 200 -
+2025-02-20 22:44:13,312 - INFO - 127.0.0.1 - - [20/Feb/2025 22:44:13] "POST /search HTTP/1.1" 200 -
+2025-02-20 22:44:19,870 - INFO - 127.0.0.1 - - [20/Feb/2025 22:44:19] "POST /search HTTP/1.1" 200 -
+2025-02-20 22:46:13,254 - INFO -  * Detected change in 'D:\\INTERN\\Project\\server.py', reloading
+2025-02-20 22:46:13,378 - INFO -  * Restarting with stat
+2025-02-20 22:46:14,592 - WARNING -  * Debugger is active!
+2025-02-20 22:46:14,599 - INFO -  * Debugger PIN: 110-580-769
+2025-02-20 22:46:20,683 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-20 22:46:20,683 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-20 22:46:20,686 - INFO -  * Restarting with stat
+2025-02-20 22:46:22,009 - WARNING -  * Debugger is active!
+2025-02-20 22:46:22,017 - INFO -  * Debugger PIN: 110-580-769
+2025-02-20 22:46:24,542 - INFO - 127.0.0.1 - - [20/Feb/2025 22:46:24] "GET /dashboard HTTP/1.1" 200 -
+2025-02-20 22:46:24,820 - INFO - 127.0.0.1 - - [20/Feb/2025 22:46:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 22:46:24,832 - INFO - 127.0.0.1 - - [20/Feb/2025 22:46:24] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-20 22:46:24,834 - INFO - 127.0.0.1 - - [20/Feb/2025 22:46:24] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-20 22:46:30,315 - INFO - Successfully inserted 512 records
+2025-02-20 22:46:30,435 - INFO - 127.0.0.1 - - [20/Feb/2025 22:46:30] "POST /upload HTTP/1.1" 200 -
+2025-02-20 22:46:37,970 - INFO - 127.0.0.1 - - [20/Feb/2025 22:46:37] "POST /search HTTP/1.1" 200 -
+2025-02-20 22:46:48,653 - INFO - 127.0.0.1 - - [20/Feb/2025 22:46:48] "POST /search HTTP/1.1" 200 -
+2025-02-20 22:58:02,757 - INFO -  * Detected change in 'D:\\INTERN\\Project\\server.py', reloading
+2025-02-20 22:58:02,899 - INFO -  * Restarting with stat
+2025-02-20 22:58:04,220 - WARNING -  * Debugger is active!
+2025-02-20 22:58:04,230 - INFO -  * Debugger PIN: 110-580-769
+2025-02-20 22:58:16,847 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-20 22:58:16,847 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-20 22:58:16,849 - INFO -  * Restarting with stat
+2025-02-20 22:58:18,247 - WARNING -  * Debugger is active!
+2025-02-20 22:58:18,255 - INFO -  * Debugger PIN: 110-580-769
+2025-02-20 22:58:23,336 - INFO - 127.0.0.1 - - [20/Feb/2025 22:58:23] "GET /dashboard HTTP/1.1" 200 -
+2025-02-20 22:58:23,592 - INFO - 127.0.0.1 - - [20/Feb/2025 22:58:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 22:58:23,610 - INFO - 127.0.0.1 - - [20/Feb/2025 22:58:23] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-20 22:58:23,614 - INFO - 127.0.0.1 - - [20/Feb/2025 22:58:23] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-20 22:58:29,581 - INFO - Successfully inserted 512 records
+2025-02-20 22:58:29,670 - INFO - 127.0.0.1 - - [20/Feb/2025 22:58:29] "POST /upload HTTP/1.1" 200 -
+2025-02-20 22:58:33,126 - INFO - 127.0.0.1 - - [20/Feb/2025 22:58:33] "POST /search HTTP/1.1" 200 -
+2025-02-20 22:59:24,003 - INFO -  * Detected change in 'D:\\INTERN\\Project\\server.py', reloading
+2025-02-20 22:59:24,135 - INFO -  * Restarting with stat
+2025-02-20 22:59:25,460 - WARNING -  * Debugger is active!
+2025-02-20 22:59:25,467 - INFO -  * Debugger PIN: 110-580-769
+2025-02-20 22:59:37,575 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-20 22:59:37,575 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-20 22:59:37,580 - INFO -  * Restarting with stat
+2025-02-20 22:59:38,692 - WARNING -  * Debugger is active!
+2025-02-20 22:59:38,699 - INFO -  * Debugger PIN: 110-580-769
+2025-02-20 22:59:43,562 - INFO - 127.0.0.1 - - [20/Feb/2025 22:59:43] "GET /dashboard HTTP/1.1" 200 -
+2025-02-20 22:59:43,840 - INFO - 127.0.0.1 - - [20/Feb/2025 22:59:43] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 22:59:43,847 - INFO - 127.0.0.1 - - [20/Feb/2025 22:59:43] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-20 22:59:43,850 - INFO - 127.0.0.1 - - [20/Feb/2025 22:59:43] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-20 22:59:49,494 - INFO - Successfully inserted 512 records
+2025-02-20 22:59:49,632 - INFO - 127.0.0.1 - - [20/Feb/2025 22:59:49] "POST /upload HTTP/1.1" 200 -
+2025-02-20 22:59:53,335 - INFO - 127.0.0.1 - - [20/Feb/2025 22:59:53] "POST /search HTTP/1.1" 200 -
+2025-02-20 23:00:47,732 - INFO -  * Detected change in 'D:\\INTERN\\Project\\server.py', reloading
+2025-02-20 23:00:47,945 - INFO -  * Restarting with stat
+2025-02-20 23:00:49,262 - WARNING -  * Debugger is active!
+2025-02-20 23:00:49,269 - INFO -  * Debugger PIN: 110-580-769
+2025-02-20 23:00:53,136 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-20 23:00:53,137 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-20 23:00:53,139 - INFO -  * Restarting with stat
+2025-02-20 23:00:54,366 - WARNING -  * Debugger is active!
+2025-02-20 23:00:54,374 - INFO -  * Debugger PIN: 110-580-769
+2025-02-20 23:00:56,611 - INFO - 127.0.0.1 - - [20/Feb/2025 23:00:56] "GET /dashboard HTTP/1.1" 200 -
+2025-02-20 23:00:56,888 - INFO - 127.0.0.1 - - [20/Feb/2025 23:00:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 23:00:56,944 - INFO - 127.0.0.1 - - [20/Feb/2025 23:00:56] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-20 23:00:56,966 - INFO - 127.0.0.1 - - [20/Feb/2025 23:00:56] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-20 23:01:04,343 - INFO - Successfully inserted 512 records
+2025-02-20 23:01:04,465 - INFO - 127.0.0.1 - - [20/Feb/2025 23:01:04] "POST /upload HTTP/1.1" 200 -
+2025-02-20 23:01:07,267 - INFO - 127.0.0.1 - - [20/Feb/2025 23:01:07] "POST /search HTTP/1.1" 200 -
+2025-02-20 23:01:53,479 - INFO -  * Detected change in 'D:\\INTERN\\Project\\server.py', reloading
+2025-02-20 23:01:53,623 - INFO -  * Restarting with stat
+2025-02-20 23:01:54,858 - WARNING -  * Debugger is active!
+2025-02-20 23:01:54,865 - INFO -  * Debugger PIN: 110-580-769
+2025-02-20 23:02:00,876 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-20 23:02:00,876 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-20 23:02:00,879 - INFO -  * Restarting with stat
+2025-02-20 23:02:02,233 - WARNING -  * Debugger is active!
+2025-02-20 23:02:02,241 - INFO -  * Debugger PIN: 110-580-769
+2025-02-20 23:02:04,985 - INFO - 127.0.0.1 - - [20/Feb/2025 23:02:04] "GET /dashboard HTTP/1.1" 200 -
+2025-02-20 23:02:05,287 - INFO - 127.0.0.1 - - [20/Feb/2025 23:02:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 23:02:05,290 - INFO - 127.0.0.1 - - [20/Feb/2025 23:02:05] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-20 23:02:05,292 - INFO - 127.0.0.1 - - [20/Feb/2025 23:02:05] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-20 23:02:12,259 - INFO - Successfully inserted 512 records
+2025-02-20 23:02:12,391 - INFO - 127.0.0.1 - - [20/Feb/2025 23:02:12] "POST /upload HTTP/1.1" 200 -
+2025-02-20 23:02:14,967 - INFO - 127.0.0.1 - - [20/Feb/2025 23:02:14] "POST /search HTTP/1.1" 200 -
+2025-02-20 23:03:39,671 - INFO -  * Detected change in 'D:\\INTERN\\Project\\server.py', reloading
+2025-02-20 23:03:39,800 - INFO -  * Restarting with stat
+2025-02-20 23:03:41,093 - WARNING -  * Debugger is active!
+2025-02-20 23:03:41,101 - INFO -  * Debugger PIN: 110-580-769
+2025-02-20 23:03:42,244 - INFO -  * Detected change in 'D:\\INTERN\\Project\\server.py', reloading
+2025-02-20 23:03:42,367 - INFO -  * Restarting with stat
+2025-02-20 23:03:47,480 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-20 23:03:47,480 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-20 23:03:47,482 - INFO -  * Restarting with stat
+2025-02-20 23:03:48,612 - WARNING -  * Debugger is active!
+2025-02-20 23:03:48,619 - INFO -  * Debugger PIN: 110-580-769
+2025-02-20 23:03:52,093 - INFO - 127.0.0.1 - - [20/Feb/2025 23:03:52] "GET /dashboard HTTP/1.1" 200 -
+2025-02-20 23:03:52,387 - INFO - 127.0.0.1 - - [20/Feb/2025 23:03:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 23:03:52,390 - INFO - 127.0.0.1 - - [20/Feb/2025 23:03:52] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-20 23:03:52,393 - INFO - 127.0.0.1 - - [20/Feb/2025 23:03:52] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-20 23:03:57,595 - INFO - Successfully inserted 512 records
+2025-02-20 23:03:57,727 - INFO - 127.0.0.1 - - [20/Feb/2025 23:03:57] "POST /upload HTTP/1.1" 200 -
+2025-02-20 23:03:59,662 - INFO - 127.0.0.1 - - [20/Feb/2025 23:03:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 23:04:05,912 - INFO - 127.0.0.1 - - [20/Feb/2025 23:04:05] "POST /search HTTP/1.1" 200 -
+2025-02-20 23:10:52,748 - INFO -  * Detected change in 'D:\\INTERN\\Project\\server.py', reloading
+2025-02-20 23:10:52,877 - INFO -  * Restarting with stat
+2025-02-20 23:10:54,142 - WARNING -  * Debugger is active!
+2025-02-20 23:10:54,149 - INFO -  * Debugger PIN: 110-580-769
+2025-02-20 23:10:59,013 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-20 23:10:59,013 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-20 23:10:59,016 - INFO -  * Restarting with stat
+2025-02-20 23:11:00,256 - WARNING -  * Debugger is active!
+2025-02-20 23:11:00,262 - INFO -  * Debugger PIN: 110-580-769
+2025-02-20 23:11:04,833 - INFO - 127.0.0.1 - - [20/Feb/2025 23:11:04] "GET /dashboard HTTP/1.1" 200 -
+2025-02-20 23:11:05,122 - INFO - 127.0.0.1 - - [20/Feb/2025 23:11:05] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-20 23:11:05,139 - INFO - 127.0.0.1 - - [20/Feb/2025 23:11:05] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-02-20 23:11:05,153 - INFO - 127.0.0.1 - - [20/Feb/2025 23:11:05] "GET /static/images/logo.png HTTP/1.1" 200 -
+2025-02-20 23:11:13,119 - INFO - Successfully inserted 512 records
+2025-02-20 23:11:13,265 - INFO - 127.0.0.1 - - [20/Feb/2025 23:11:13] "POST /upload HTTP/1.1" 200 -
+2025-02-20 23:11:16,261 - INFO - 127.0.0.1 - - [20/Feb/2025 23:11:16] "POST /search HTTP/1.1" 200 -
+2025-02-20 23:25:08,258 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-20 23:25:08,259 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-20 23:25:08,263 - INFO -  * Restarting with stat
+2025-02-20 23:25:09,532 - WARNING -  * Debugger is active!
+2025-02-20 23:25:09,539 - INFO -  * Debugger PIN: 110-580-769
+2025-02-20 23:25:11,914 - INFO - 127.0.0.1 - - [20/Feb/2025 23:25:11] "GET /dashboard HTTP/1.1" 200 -
+2025-02-20 23:25:12,174 - INFO - 127.0.0.1 - - [20/Feb/2025 23:25:12] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-20 23:25:12,184 - INFO - 127.0.0.1 - - [20/Feb/2025 23:25:12] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-20 23:25:12,185 - INFO - 127.0.0.1 - - [20/Feb/2025 23:25:12] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-02-20 23:25:19,691 - INFO - Successfully inserted 512 records
+2025-02-20 23:25:19,808 - INFO - 127.0.0.1 - - [20/Feb/2025 23:25:19] "POST /upload HTTP/1.1" 200 -
+2025-02-20 23:25:30,960 - INFO - 127.0.0.1 - - [20/Feb/2025 23:25:30] "POST /search HTTP/1.1" 200 -
+2025-02-20 23:25:37,122 - INFO - 127.0.0.1 - - [20/Feb/2025 23:25:37] "POST /search HTTP/1.1" 200 -
+2025-02-20 23:25:40,670 - INFO - 127.0.0.1 - - [20/Feb/2025 23:25:40] "POST /search HTTP/1.1" 200 -
+2025-02-20 23:25:44,313 - INFO - 127.0.0.1 - - [20/Feb/2025 23:25:44] "POST /search HTTP/1.1" 200 -
+2025-02-20 23:25:47,126 - INFO - 127.0.0.1 - - [20/Feb/2025 23:25:47] "POST /search HTTP/1.1" 200 -
+2025-02-20 23:25:49,819 - INFO - 127.0.0.1 - - [20/Feb/2025 23:25:49] "POST /search HTTP/1.1" 200 -
+2025-02-20 23:25:53,925 - INFO - 127.0.0.1 - - [20/Feb/2025 23:25:53] "POST /search HTTP/1.1" 200 -
+2025-02-20 23:25:56,623 - INFO - 127.0.0.1 - - [20/Feb/2025 23:25:56] "POST /search HTTP/1.1" 200 -
+2025-02-20 23:25:59,069 - INFO - 127.0.0.1 - - [20/Feb/2025 23:25:59] "POST /search HTTP/1.1" 200 -
+2025-02-20 23:26:03,704 - INFO - 127.0.0.1 - - [20/Feb/2025 23:26:03] "POST /search HTTP/1.1" 200 -
+2025-02-20 23:35:20,025 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-20 23:35:20,026 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-20 23:35:20,029 - INFO -  * Restarting with stat
+2025-02-20 23:35:21,121 - WARNING -  * Debugger is active!
+2025-02-20 23:35:21,129 - INFO -  * Debugger PIN: 110-580-769
+2025-02-20 23:35:26,283 - INFO - 127.0.0.1 - - [20/Feb/2025 23:35:26] "GET /dashboard HTTP/1.1" 200 -
+2025-02-20 23:35:26,541 - INFO - 127.0.0.1 - - [20/Feb/2025 23:35:26] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-20 23:35:26,551 - INFO - 127.0.0.1 - - [20/Feb/2025 23:35:26] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-20 23:35:26,556 - INFO - 127.0.0.1 - - [20/Feb/2025 23:35:26] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-02-20 23:35:35,215 - INFO - Successfully inserted 512 records
+2025-02-20 23:35:35,348 - INFO - 127.0.0.1 - - [20/Feb/2025 23:35:35] "POST /upload HTTP/1.1" 200 -
+2025-02-20 23:35:47,532 - INFO - 127.0.0.1 - - [20/Feb/2025 23:35:47] "POST /search HTTP/1.1" 200 -
+2025-02-20 23:41:33,385 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-20 23:41:33,385 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-20 23:41:33,387 - INFO -  * Restarting with stat
+2025-02-20 23:41:34,672 - WARNING -  * Debugger is active!
+2025-02-20 23:41:34,679 - INFO -  * Debugger PIN: 110-580-769
+2025-02-20 23:41:38,428 - INFO - 127.0.0.1 - - [20/Feb/2025 23:41:38] "GET /dashboard HTTP/1.1" 200 -
+2025-02-20 23:41:38,671 - INFO - 127.0.0.1 - - [20/Feb/2025 23:41:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 23:41:38,687 - INFO - 127.0.0.1 - - [20/Feb/2025 23:41:38] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-20 23:41:38,727 - INFO - 127.0.0.1 - - [20/Feb/2025 23:41:38] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-02-20 23:41:45,817 - INFO - Successfully inserted 512 records
+2025-02-20 23:41:45,932 - INFO - 127.0.0.1 - - [20/Feb/2025 23:41:45] "POST /upload HTTP/1.1" 200 -
+2025-02-20 23:42:21,477 - INFO - 127.0.0.1 - - [20/Feb/2025 23:42:21] "POST /search HTTP/1.1" 200 -
+2025-02-20 23:45:38,020 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-20 23:45:38,020 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-20 23:45:38,022 - INFO -  * Restarting with stat
+2025-02-20 23:45:39,596 - WARNING -  * Debugger is active!
+2025-02-20 23:45:39,607 - INFO -  * Debugger PIN: 110-580-769
+2025-02-20 23:45:41,511 - INFO - 127.0.0.1 - - [20/Feb/2025 23:45:41] "GET /dashboard HTTP/1.1" 200 -
+2025-02-20 23:45:41,756 - INFO - 127.0.0.1 - - [20/Feb/2025 23:45:41] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-20 23:45:41,772 - INFO - 127.0.0.1 - - [20/Feb/2025 23:45:41] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-20 23:45:41,774 - INFO - 127.0.0.1 - - [20/Feb/2025 23:45:41] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-20 23:45:49,277 - INFO - Successfully inserted 512 records
+2025-02-20 23:45:49,392 - INFO - 127.0.0.1 - - [20/Feb/2025 23:45:49] "POST /upload HTTP/1.1" 200 -
+2025-02-20 23:50:25,962 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-20 23:50:25,962 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-20 23:50:25,965 - INFO -  * Restarting with stat
+2025-02-20 23:50:27,417 - WARNING -  * Debugger is active!
+2025-02-20 23:50:27,425 - INFO -  * Debugger PIN: 110-580-769
+2025-02-20 23:50:29,717 - INFO - 127.0.0.1 - - [20/Feb/2025 23:50:29] "GET /dashboard HTTP/1.1" 200 -
+2025-02-20 23:50:29,972 - INFO - 127.0.0.1 - - [20/Feb/2025 23:50:29] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-20 23:50:29,982 - INFO - 127.0.0.1 - - [20/Feb/2025 23:50:29] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-20 23:50:30,014 - INFO - 127.0.0.1 - - [20/Feb/2025 23:50:30] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-02-20 23:50:36,650 - INFO - Successfully inserted 512 records
+2025-02-20 23:50:36,762 - INFO - 127.0.0.1 - - [20/Feb/2025 23:50:36] "POST /upload HTTP/1.1" 200 -
+2025-02-20 23:50:38,618 - INFO - 127.0.0.1 - - [20/Feb/2025 23:50:38] "POST /search HTTP/1.1" 200 -
+2025-02-20 23:50:48,040 - INFO - 127.0.0.1 - - [20/Feb/2025 23:50:48] "POST /search HTTP/1.1" 200 -
+2025-02-20 23:50:52,634 - INFO - 127.0.0.1 - - [20/Feb/2025 23:50:52] "POST /search HTTP/1.1" 200 -
+2025-02-20 23:50:59,192 - INFO - 127.0.0.1 - - [20/Feb/2025 23:50:59] "POST /search HTTP/1.1" 200 -
+2025-02-20 23:51:08,483 - INFO - 127.0.0.1 - - [20/Feb/2025 23:51:08] "POST /search HTTP/1.1" 200 -
+2025-02-20 23:51:14,953 - INFO - 127.0.0.1 - - [20/Feb/2025 23:51:14] "POST /search HTTP/1.1" 200 -
+2025-02-20 23:51:17,848 - INFO - 127.0.0.1 - - [20/Feb/2025 23:51:17] "POST /search HTTP/1.1" 200 -
+2025-02-20 23:51:18,752 - INFO - 127.0.0.1 - - [20/Feb/2025 23:51:18] "POST /search HTTP/1.1" 200 -
+2025-02-20 23:51:18,992 - INFO - 127.0.0.1 - - [20/Feb/2025 23:51:18] "POST /search HTTP/1.1" 200 -
+2025-02-20 23:51:22,187 - INFO - 127.0.0.1 - - [20/Feb/2025 23:51:22] "POST /search HTTP/1.1" 200 -
+2025-02-20 23:51:23,319 - INFO - 127.0.0.1 - - [20/Feb/2025 23:51:23] "POST /search HTTP/1.1" 200 -
+2025-02-20 23:51:35,355 - INFO - 127.0.0.1 - - [20/Feb/2025 23:51:35] "POST /search HTTP/1.1" 200 -
+2025-02-20 23:51:46,452 - INFO - 127.0.0.1 - - [20/Feb/2025 23:51:46] "POST /search HTTP/1.1" 200 -
+2025-02-20 23:52:01,687 - INFO - 127.0.0.1 - - [20/Feb/2025 23:52:01] "GET /dashboard HTTP/1.1" 200 -
+2025-02-20 23:52:01,746 - INFO - 127.0.0.1 - - [20/Feb/2025 23:52:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 23:52:01,753 - INFO - 127.0.0.1 - - [20/Feb/2025 23:52:01] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-20 23:52:01,754 - INFO - 127.0.0.1 - - [20/Feb/2025 23:52:01] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-20 23:56:36,241 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-20 23:56:36,241 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-20 23:56:36,244 - INFO -  * Restarting with stat
+2025-02-20 23:56:37,566 - WARNING -  * Debugger is active!
+2025-02-20 23:56:37,574 - INFO -  * Debugger PIN: 110-580-769
+2025-02-20 23:56:39,598 - INFO - 127.0.0.1 - - [20/Feb/2025 23:56:39] "GET /dashboard HTTP/1.1" 200 -
+2025-02-20 23:56:39,856 - INFO - 127.0.0.1 - - [20/Feb/2025 23:56:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-20 23:56:39,869 - INFO - 127.0.0.1 - - [20/Feb/2025 23:56:39] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-20 23:56:39,900 - INFO - 127.0.0.1 - - [20/Feb/2025 23:56:39] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-02-20 23:56:52,512 - INFO - Successfully inserted 512 records
+2025-02-20 23:56:52,628 - INFO - 127.0.0.1 - - [20/Feb/2025 23:56:52] "POST /upload HTTP/1.1" 200 -
+2025-02-20 23:57:18,351 - INFO - 127.0.0.1 - - [20/Feb/2025 23:57:18] "POST /search HTTP/1.1" 200 -
+2025-02-21 00:06:08,211 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-21 00:06:08,212 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-21 00:06:08,215 - INFO -  * Restarting with stat
+2025-02-21 00:06:09,520 - WARNING -  * Debugger is active!
+2025-02-21 00:06:09,527 - INFO -  * Debugger PIN: 110-580-769
+2025-02-21 00:06:11,937 - INFO - 127.0.0.1 - - [21/Feb/2025 00:06:11] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 00:06:12,184 - INFO - 127.0.0.1 - - [21/Feb/2025 00:06:12] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 00:06:12,201 - INFO - 127.0.0.1 - - [21/Feb/2025 00:06:12] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 00:06:12,238 - INFO - 127.0.0.1 - - [21/Feb/2025 00:06:12] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-02-21 00:06:18,722 - INFO - Successfully inserted 512 records
+2025-02-21 00:06:18,807 - INFO - 127.0.0.1 - - [21/Feb/2025 00:06:18] "POST /upload HTTP/1.1" 200 -
+2025-02-21 00:06:20,652 - INFO - Successfully inserted 512 records
+2025-02-21 00:06:20,749 - INFO - 127.0.0.1 - - [21/Feb/2025 00:06:20] "POST /upload HTTP/1.1" 200 -
+2025-02-21 00:06:24,983 - INFO - Successfully inserted 512 records
+2025-02-21 00:06:25,156 - INFO - 127.0.0.1 - - [21/Feb/2025 00:06:25] "POST /upload HTTP/1.1" 200 -
+2025-02-21 00:06:25,435 - INFO - Successfully inserted 512 records
+2025-02-21 00:06:25,730 - INFO - 127.0.0.1 - - [21/Feb/2025 00:06:25] "POST /upload HTTP/1.1" 200 -
+2025-02-21 00:06:26,154 - INFO - Successfully inserted 512 records
+2025-02-21 00:06:26,195 - ERROR - Error inserting data: Execution failed on sql 'DROP TABLE "resumes"': no such table: resumes
+2025-02-21 00:06:26,204 - INFO - 127.0.0.1 - - [21/Feb/2025 00:06:26] "POST /upload HTTP/1.1" 200 -
+2025-02-21 00:06:26,251 - ERROR - Error inserting data: no such table: resumes
+2025-02-21 00:06:26,257 - INFO - 127.0.0.1 - - [21/Feb/2025 00:06:26] "POST /upload HTTP/1.1" 200 -
+2025-02-21 00:06:26,282 - ERROR - Error inserting data: table "resumes" already exists
+2025-02-21 00:06:26,287 - INFO - 127.0.0.1 - - [21/Feb/2025 00:06:26] "POST /upload HTTP/1.1" 200 -
+2025-02-21 00:06:26,405 - INFO - 127.0.0.1 - - [21/Feb/2025 00:06:26] "POST /upload HTTP/1.1" 200 -
+2025-02-21 00:06:26,503 - INFO - Successfully inserted 512 records
+2025-02-21 00:06:26,613 - INFO - 127.0.0.1 - - [21/Feb/2025 00:06:26] "POST /upload HTTP/1.1" 200 -
+2025-02-21 00:06:26,632 - INFO - Successfully inserted 512 records
+2025-02-21 00:06:26,735 - INFO - 127.0.0.1 - - [21/Feb/2025 00:06:26] "POST /upload HTTP/1.1" 200 -
+2025-02-21 00:06:26,750 - INFO - Successfully inserted 512 records
+2025-02-21 00:06:26,902 - INFO - 127.0.0.1 - - [21/Feb/2025 00:06:26] "POST /upload HTTP/1.1" 200 -
+2025-02-21 00:06:29,284 - INFO - 127.0.0.1 - - [21/Feb/2025 00:06:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 00:06:39,194 - INFO - 127.0.0.1 - - [21/Feb/2025 00:06:39] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 00:06:39,308 - INFO - 127.0.0.1 - - [21/Feb/2025 00:06:39] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 00:06:39,347 - INFO - 127.0.0.1 - - [21/Feb/2025 00:06:39] "GET /static/images/logo.png HTTP/1.1" 200 -
+2025-02-21 00:06:39,348 - INFO - 127.0.0.1 - - [21/Feb/2025 00:06:39] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-02-21 00:06:45,973 - INFO - Successfully inserted 512 records
+2025-02-21 00:06:46,070 - INFO - 127.0.0.1 - - [21/Feb/2025 00:06:46] "POST /upload HTTP/1.1" 200 -
+2025-02-21 00:10:49,815 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-21 00:10:49,815 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-21 00:10:49,820 - INFO -  * Restarting with stat
+2025-02-21 00:10:50,994 - WARNING -  * Debugger is active!
+2025-02-21 00:10:51,002 - INFO -  * Debugger PIN: 110-580-769
+2025-02-21 00:10:54,565 - INFO - 127.0.0.1 - - [21/Feb/2025 00:10:54] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 00:10:54,861 - INFO - 127.0.0.1 - - [21/Feb/2025 00:10:54] "GET /static/images/logo.png HTTP/1.1" 200 -
+2025-02-21 00:10:54,869 - INFO - 127.0.0.1 - - [21/Feb/2025 00:10:54] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-02-21 00:10:54,872 - INFO - 127.0.0.1 - - [21/Feb/2025 00:10:54] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 00:11:00,272 - INFO - Successfully inserted 512 records
+2025-02-21 00:11:00,382 - INFO - 127.0.0.1 - - [21/Feb/2025 00:11:00] "POST /upload HTTP/1.1" 200 -
+2025-02-21 00:11:17,979 - INFO - 127.0.0.1 - - [21/Feb/2025 00:11:17] "POST /search HTTP/1.1" 200 -
+2025-02-21 00:11:44,186 - INFO - 127.0.0.1 - - [21/Feb/2025 00:11:44] "POST /search HTTP/1.1" 200 -
+2025-02-21 00:14:31,716 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-21 00:14:31,717 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-21 00:14:31,719 - INFO -  * Restarting with stat
+2025-02-21 00:14:33,138 - WARNING -  * Debugger is active!
+2025-02-21 00:14:33,216 - INFO -  * Debugger PIN: 110-580-769
+2025-02-21 00:14:35,338 - INFO - 127.0.0.1 - - [21/Feb/2025 00:14:35] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 00:14:35,622 - INFO - 127.0.0.1 - - [21/Feb/2025 00:14:35] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 00:14:35,625 - INFO - 127.0.0.1 - - [21/Feb/2025 00:14:35] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 00:14:35,660 - INFO - 127.0.0.1 - - [21/Feb/2025 00:14:35] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-02-21 00:14:42,881 - INFO - Successfully inserted 512 records
+2025-02-21 00:14:42,998 - INFO - 127.0.0.1 - - [21/Feb/2025 00:14:42] "POST /upload HTTP/1.1" 200 -
+2025-02-21 00:14:56,938 - INFO - 127.0.0.1 - - [21/Feb/2025 00:14:56] "POST /search HTTP/1.1" 200 -
+2025-02-21 00:15:25,014 - INFO - 127.0.0.1 - - [21/Feb/2025 00:15:25] "POST /search HTTP/1.1" 200 -
+2025-02-21 00:15:35,151 - INFO - 127.0.0.1 - - [21/Feb/2025 00:15:35] "POST /search HTTP/1.1" 200 -
+2025-02-21 00:15:42,562 - INFO - 127.0.0.1 - - [21/Feb/2025 00:15:42] "POST /search HTTP/1.1" 200 -
+2025-02-21 00:15:45,365 - INFO - 127.0.0.1 - - [21/Feb/2025 00:15:45] "POST /search HTTP/1.1" 200 -
+2025-02-21 00:15:49,435 - INFO - 127.0.0.1 - - [21/Feb/2025 00:15:49] "POST /search HTTP/1.1" 200 -
+2025-02-21 00:16:13,917 - INFO - 127.0.0.1 - - [21/Feb/2025 00:16:13] "POST /search HTTP/1.1" 200 -
+2025-02-21 00:16:25,232 - INFO - 127.0.0.1 - - [21/Feb/2025 00:16:25] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 00:16:25,304 - INFO - 127.0.0.1 - - [21/Feb/2025 00:16:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 00:16:25,309 - INFO - 127.0.0.1 - - [21/Feb/2025 00:16:25] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 00:16:25,310 - INFO - 127.0.0.1 - - [21/Feb/2025 00:16:25] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-21 00:16:49,488 - INFO - Successfully inserted 512 records
+2025-02-21 00:16:49,582 - INFO - 127.0.0.1 - - [21/Feb/2025 00:16:49] "POST /upload HTTP/1.1" 200 -
+2025-02-21 00:16:56,882 - INFO - 127.0.0.1 - - [21/Feb/2025 00:16:56] "POST /search HTTP/1.1" 200 -
+2025-02-21 00:17:46,436 - INFO - 127.0.0.1 - - [21/Feb/2025 00:17:46] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 00:17:46,507 - INFO - 127.0.0.1 - - [21/Feb/2025 00:17:46] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 00:17:46,515 - INFO - 127.0.0.1 - - [21/Feb/2025 00:17:46] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 00:17:46,516 - INFO - 127.0.0.1 - - [21/Feb/2025 00:17:46] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-21 00:17:57,404 - INFO - Successfully inserted 512 records
+2025-02-21 00:17:57,515 - INFO - 127.0.0.1 - - [21/Feb/2025 00:17:57] "POST /upload HTTP/1.1" 200 -
+2025-02-21 00:18:10,702 - INFO - 127.0.0.1 - - [21/Feb/2025 00:18:10] "POST /search HTTP/1.1" 200 -
+2025-02-21 14:28:27,789 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-21 14:28:27,789 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-21 14:28:27,795 - INFO -  * Restarting with stat
+2025-02-21 14:28:29,538 - WARNING -  * Debugger is active!
+2025-02-21 14:28:29,550 - INFO -  * Debugger PIN: 110-580-769
+2025-02-21 14:29:17,591 - INFO - 127.0.0.1 - - [21/Feb/2025 14:29:17] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-02-21 14:29:17,660 - INFO - 127.0.0.1 - - [21/Feb/2025 14:29:17] "GET / HTTP/1.1" 200 -
+2025-02-21 14:29:18,070 - INFO - 127.0.0.1 - - [21/Feb/2025 14:29:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 14:29:18,074 - INFO - 127.0.0.1 - - [21/Feb/2025 14:29:18] "GET /static/js/login.js HTTP/1.1" 200 -
+2025-02-21 14:29:18,312 - INFO - 127.0.0.1 - - [21/Feb/2025 14:29:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-21 14:29:20,691 - INFO - 127.0.0.1 - - [21/Feb/2025 14:29:20] "POST /login HTTP/1.1" 200 -
+2025-02-21 14:29:20,761 - INFO - 127.0.0.1 - - [21/Feb/2025 14:29:20] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 14:29:20,816 - INFO - 127.0.0.1 - - [21/Feb/2025 14:29:20] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 14:29:20,830 - INFO - 127.0.0.1 - - [21/Feb/2025 14:29:20] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 14:29:20,832 - INFO - 127.0.0.1 - - [21/Feb/2025 14:29:20] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-21 14:29:29,507 - INFO - Successfully inserted 512 records
+2025-02-21 14:29:29,715 - INFO - 127.0.0.1 - - [21/Feb/2025 14:29:29] "POST /upload HTTP/1.1" 200 -
+2025-02-21 14:29:34,527 - INFO - 127.0.0.1 - - [21/Feb/2025 14:29:34] "POST /search HTTP/1.1" 200 -
+2025-02-21 14:39:05,475 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-21 14:39:05,476 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-21 14:39:05,482 - INFO -  * Restarting with stat
+2025-02-21 14:39:07,484 - WARNING -  * Debugger is active!
+2025-02-21 14:39:07,500 - INFO -  * Debugger PIN: 110-580-769
+2025-02-21 14:39:12,894 - INFO - 127.0.0.1 - - [21/Feb/2025 14:39:12] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 14:39:13,297 - INFO - 127.0.0.1 - - [21/Feb/2025 14:39:13] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 14:39:13,304 - INFO - 127.0.0.1 - - [21/Feb/2025 14:39:13] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 14:39:13,306 - INFO - 127.0.0.1 - - [21/Feb/2025 14:39:13] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-21 14:50:56,964 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-21 14:50:56,964 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-21 14:50:56,969 - INFO -  * Restarting with stat
+2025-02-21 14:50:59,834 - WARNING -  * Debugger is active!
+2025-02-21 14:50:59,853 - INFO -  * Debugger PIN: 110-580-769
+2025-02-21 14:51:00,850 - INFO - 127.0.0.1 - - [21/Feb/2025 14:51:00] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 14:51:01,284 - INFO - 127.0.0.1 - - [21/Feb/2025 14:51:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 14:51:01,291 - INFO - 127.0.0.1 - - [21/Feb/2025 14:51:01] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 14:51:01,300 - INFO - 127.0.0.1 - - [21/Feb/2025 14:51:01] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-21 15:01:44,530 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-21 15:01:44,530 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-21 15:01:44,533 - INFO -  * Restarting with stat
+2025-02-21 15:01:45,879 - WARNING -  * Debugger is active!
+2025-02-21 15:01:45,886 - INFO -  * Debugger PIN: 110-580-769
+2025-02-21 15:01:48,027 - INFO - 127.0.0.1 - - [21/Feb/2025 15:01:48] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 15:01:48,282 - INFO - 127.0.0.1 - - [21/Feb/2025 15:01:48] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 15:01:48,298 - INFO - 127.0.0.1 - - [21/Feb/2025 15:01:48] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 15:01:48,335 - INFO - 127.0.0.1 - - [21/Feb/2025 15:01:48] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-02-21 15:02:41,121 - INFO - 127.0.0.1 - - [21/Feb/2025 15:02:41] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 15:02:41,167 - INFO - 127.0.0.1 - - [21/Feb/2025 15:02:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 15:02:41,168 - INFO - 127.0.0.1 - - [21/Feb/2025 15:02:41] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 15:02:41,205 - INFO - 127.0.0.1 - - [21/Feb/2025 15:02:41] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-02-21 15:02:48,677 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-21 15:02:48,678 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-21 15:02:48,680 - INFO -  * Restarting with stat
+2025-02-21 15:02:49,773 - WARNING -  * Debugger is active!
+2025-02-21 15:02:49,780 - INFO -  * Debugger PIN: 110-580-769
+2025-02-21 15:02:53,298 - INFO - 127.0.0.1 - - [21/Feb/2025 15:02:53] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 15:02:53,532 - INFO - 127.0.0.1 - - [21/Feb/2025 15:02:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 15:02:53,537 - INFO - 127.0.0.1 - - [21/Feb/2025 15:02:53] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 15:02:53,544 - INFO - 127.0.0.1 - - [21/Feb/2025 15:02:53] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-21 15:17:16,832 - INFO - 127.0.0.1 - - [21/Feb/2025 15:17:16] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-02-21 15:17:18,496 - INFO - 127.0.0.1 - - [21/Feb/2025 15:17:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-21 15:26:19,537 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-21 15:26:19,538 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-21 15:26:19,539 - INFO -  * Restarting with stat
+2025-02-21 15:26:20,753 - WARNING -  * Debugger is active!
+2025-02-21 15:26:20,762 - INFO -  * Debugger PIN: 110-580-769
+2025-02-21 15:26:28,711 - INFO - 127.0.0.1 - - [21/Feb/2025 15:26:28] "GET / HTTP/1.1" 200 -
+2025-02-21 15:26:28,921 - INFO - 127.0.0.1 - - [21/Feb/2025 15:26:28] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 15:26:28,925 - INFO - 127.0.0.1 - - [21/Feb/2025 15:26:28] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 15:26:29,952 - INFO - 127.0.0.1 - - [21/Feb/2025 15:26:29] "GET / HTTP/1.1" 200 -
+2025-02-21 15:26:30,002 - INFO - 127.0.0.1 - - [21/Feb/2025 15:26:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 15:26:30,008 - INFO - 127.0.0.1 - - [21/Feb/2025 15:26:30] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 15:26:31,335 - INFO - 127.0.0.1 - - [21/Feb/2025 15:26:31] "POST /login HTTP/1.1" 200 -
+2025-02-21 15:26:31,366 - INFO - 127.0.0.1 - - [21/Feb/2025 15:26:31] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 15:26:31,445 - INFO - 127.0.0.1 - - [21/Feb/2025 15:26:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 15:26:31,447 - INFO - 127.0.0.1 - - [21/Feb/2025 15:26:31] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 15:26:31,484 - INFO - 127.0.0.1 - - [21/Feb/2025 15:26:31] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-02-21 15:27:48,087 - INFO - 127.0.0.1 - - [21/Feb/2025 15:27:48] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 15:27:48,134 - INFO - 127.0.0.1 - - [21/Feb/2025 15:27:48] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 15:27:48,138 - INFO - 127.0.0.1 - - [21/Feb/2025 15:27:48] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 15:27:48,141 - INFO - 127.0.0.1 - - [21/Feb/2025 15:27:48] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-21 15:29:35,031 - INFO - Successfully inserted 512 records
+2025-02-21 15:29:35,145 - INFO - 127.0.0.1 - - [21/Feb/2025 15:29:35] "POST /upload HTTP/1.1" 200 -
+2025-02-21 15:35:43,588 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-21 15:35:43,588 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-21 15:35:43,590 - INFO -  * Restarting with stat
+2025-02-21 15:35:44,843 - WARNING -  * Debugger is active!
+2025-02-21 15:35:44,850 - INFO -  * Debugger PIN: 110-580-769
+2025-02-21 15:35:48,329 - INFO - 127.0.0.1 - - [21/Feb/2025 15:35:48] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 15:35:48,585 - INFO - 127.0.0.1 - - [21/Feb/2025 15:35:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 15:35:48,595 - INFO - 127.0.0.1 - - [21/Feb/2025 15:35:48] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 15:35:48,632 - INFO - 127.0.0.1 - - [21/Feb/2025 15:35:48] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-02-21 15:36:06,909 - INFO - Successfully inserted 512 records
+2025-02-21 15:36:07,018 - INFO - 127.0.0.1 - - [21/Feb/2025 15:36:07] "POST /upload HTTP/1.1" 200 -
+2025-02-21 15:38:56,410 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-21 15:38:56,410 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-21 15:38:56,412 - INFO -  * Restarting with stat
+2025-02-21 15:38:57,676 - WARNING -  * Debugger is active!
+2025-02-21 15:38:57,683 - INFO -  * Debugger PIN: 110-580-769
+2025-02-21 15:39:00,942 - INFO - 127.0.0.1 - - [21/Feb/2025 15:39:00] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 15:39:01,198 - INFO - 127.0.0.1 - - [21/Feb/2025 15:39:01] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 15:39:01,206 - INFO - 127.0.0.1 - - [21/Feb/2025 15:39:01] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-21 15:39:01,212 - INFO - 127.0.0.1 - - [21/Feb/2025 15:39:01] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 15:39:50,693 - INFO - Successfully inserted 512 records
+2025-02-21 15:39:50,820 - INFO - 127.0.0.1 - - [21/Feb/2025 15:39:50] "POST /upload HTTP/1.1" 200 -
+2025-02-21 15:50:05,524 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-21 15:50:05,524 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-21 15:50:05,527 - INFO -  * Restarting with stat
+2025-02-21 15:50:06,775 - WARNING -  * Debugger is active!
+2025-02-21 15:50:06,782 - INFO -  * Debugger PIN: 110-580-769
+2025-02-21 15:50:10,342 - INFO - 127.0.0.1 - - [21/Feb/2025 15:50:10] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 15:50:10,591 - INFO - 127.0.0.1 - - [21/Feb/2025 15:50:10] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 15:50:10,601 - INFO - 127.0.0.1 - - [21/Feb/2025 15:50:10] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 15:50:10,604 - INFO - 127.0.0.1 - - [21/Feb/2025 15:50:10] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-21 15:50:46,630 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-21 15:50:46,630 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-21 15:50:46,632 - INFO -  * Restarting with stat
+2025-02-21 15:50:47,904 - WARNING -  * Debugger is active!
+2025-02-21 15:50:47,911 - INFO -  * Debugger PIN: 110-580-769
+2025-02-21 15:50:52,472 - INFO - 127.0.0.1 - - [21/Feb/2025 15:50:52] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 15:50:52,704 - INFO - 127.0.0.1 - - [21/Feb/2025 15:50:52] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 15:50:52,724 - INFO - 127.0.0.1 - - [21/Feb/2025 15:50:52] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-21 15:50:52,727 - INFO - 127.0.0.1 - - [21/Feb/2025 15:50:52] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 16:07:45,825 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-21 16:07:45,826 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-21 16:07:45,828 - INFO -  * Restarting with stat
+2025-02-21 16:07:47,171 - WARNING -  * Debugger is active!
+2025-02-21 16:07:47,179 - INFO -  * Debugger PIN: 110-580-769
+2025-02-21 16:07:48,438 - INFO - 127.0.0.1 - - [21/Feb/2025 16:07:48] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 16:07:48,729 - INFO - 127.0.0.1 - - [21/Feb/2025 16:07:48] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 16:07:48,734 - INFO - 127.0.0.1 - - [21/Feb/2025 16:07:48] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 16:07:48,792 - INFO - 127.0.0.1 - - [21/Feb/2025 16:07:48] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-02-21 16:08:01,618 - INFO - Successfully inserted 512 records
+2025-02-21 16:08:01,707 - INFO - 127.0.0.1 - - [21/Feb/2025 16:08:01] "POST /upload HTTP/1.1" 200 -
+2025-02-21 16:13:44,788 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-21 16:13:44,788 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-21 16:13:44,790 - INFO -  * Restarting with stat
+2025-02-21 16:13:46,082 - WARNING -  * Debugger is active!
+2025-02-21 16:13:46,095 - INFO -  * Debugger PIN: 110-580-769
+2025-02-21 16:13:48,353 - INFO - 127.0.0.1 - - [21/Feb/2025 16:13:48] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 16:13:48,585 - INFO - 127.0.0.1 - - [21/Feb/2025 16:13:48] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 16:13:48,604 - INFO - 127.0.0.1 - - [21/Feb/2025 16:13:48] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 16:13:48,641 - INFO - 127.0.0.1 - - [21/Feb/2025 16:13:48] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-02-21 16:13:58,865 - INFO - 127.0.0.1 - - [21/Feb/2025 16:13:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 16:39:53,808 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-21 16:39:53,808 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-21 16:39:53,810 - INFO -  * Restarting with stat
+2025-02-21 16:39:55,034 - WARNING -  * Debugger is active!
+2025-02-21 16:39:55,042 - INFO -  * Debugger PIN: 110-580-769
+2025-02-21 16:40:07,064 - INFO - 127.0.0.1 - - [21/Feb/2025 16:40:07] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-02-21 16:40:07,079 - INFO - 127.0.0.1 - - [21/Feb/2025 16:40:07] "GET / HTTP/1.1" 200 -
+2025-02-21 16:40:07,290 - INFO - 127.0.0.1 - - [21/Feb/2025 16:40:07] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 16:40:07,290 - INFO - 127.0.0.1 - - [21/Feb/2025 16:40:07] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 16:40:07,428 - INFO - 127.0.0.1 - - [21/Feb/2025 16:40:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-21 16:40:13,051 - INFO - 127.0.0.1 - - [21/Feb/2025 16:40:13] "POST /login HTTP/1.1" 200 -
+2025-02-21 16:40:13,110 - INFO - 127.0.0.1 - - [21/Feb/2025 16:40:13] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 16:40:13,153 - INFO - 127.0.0.1 - - [21/Feb/2025 16:40:13] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 16:40:13,164 - INFO - 127.0.0.1 - - [21/Feb/2025 16:40:13] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 16:40:13,220 - INFO - 127.0.0.1 - - [21/Feb/2025 16:40:13] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-02-21 16:40:22,577 - INFO - 127.0.0.1 - - [21/Feb/2025 16:40:22] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 16:40:22,625 - INFO - 127.0.0.1 - - [21/Feb/2025 16:40:22] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 16:40:22,628 - INFO - 127.0.0.1 - - [21/Feb/2025 16:40:22] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 16:40:22,631 - INFO - 127.0.0.1 - - [21/Feb/2025 16:40:22] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-21 16:40:34,805 - INFO - 127.0.0.1 - - [21/Feb/2025 16:40:34] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 16:40:34,851 - INFO - 127.0.0.1 - - [21/Feb/2025 16:40:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 16:40:34,856 - INFO - 127.0.0.1 - - [21/Feb/2025 16:40:34] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 16:40:34,857 - INFO - 127.0.0.1 - - [21/Feb/2025 16:40:34] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-21 16:40:43,558 - INFO - Successfully inserted 512 records
+2025-02-21 16:40:43,675 - INFO - 127.0.0.1 - - [21/Feb/2025 16:40:43] "POST /upload HTTP/1.1" 200 -
+2025-02-21 16:41:03,429 - INFO - 127.0.0.1 - - [21/Feb/2025 16:41:03] "POST /search HTTP/1.1" 200 -
+2025-02-21 16:41:29,343 - INFO - 127.0.0.1 - - [21/Feb/2025 16:41:29] "POST /search HTTP/1.1" 200 -
+2025-02-21 16:42:25,460 - INFO - 127.0.0.1 - - [21/Feb/2025 16:42:25] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 16:42:45,346 - INFO - Successfully inserted 203 records
+2025-02-21 16:42:45,445 - INFO - 127.0.0.1 - - [21/Feb/2025 16:42:45] "POST /upload HTTP/1.1" 200 -
+2025-02-21 16:42:48,678 - INFO - 127.0.0.1 - - [21/Feb/2025 16:42:48] "POST /search HTTP/1.1" 200 -
+2025-02-21 16:43:00,128 - INFO - 127.0.0.1 - - [21/Feb/2025 16:43:00] "POST /search HTTP/1.1" 200 -
+2025-02-21 16:58:56,624 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-21 16:58:56,625 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-21 16:58:56,627 - INFO -  * Restarting with stat
+2025-02-21 16:58:57,803 - WARNING -  * Debugger is active!
+2025-02-21 16:58:57,814 - INFO -  * Debugger PIN: 110-580-769
+2025-02-21 16:59:03,176 - INFO - 127.0.0.1 - - [21/Feb/2025 16:59:03] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-02-21 16:59:03,198 - INFO - 127.0.0.1 - - [21/Feb/2025 16:59:03] "GET / HTTP/1.1" 200 -
+2025-02-21 16:59:03,414 - INFO - 127.0.0.1 - - [21/Feb/2025 16:59:03] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 16:59:03,419 - INFO - 127.0.0.1 - - [21/Feb/2025 16:59:03] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 16:59:03,653 - INFO - 127.0.0.1 - - [21/Feb/2025 16:59:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-21 16:59:05,473 - INFO - 127.0.0.1 - - [21/Feb/2025 16:59:05] "POST /login HTTP/1.1" 200 -
+2025-02-21 16:59:05,500 - INFO - 127.0.0.1 - - [21/Feb/2025 16:59:05] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 16:59:05,563 - INFO - 127.0.0.1 - - [21/Feb/2025 16:59:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 16:59:05,564 - INFO - 127.0.0.1 - - [21/Feb/2025 16:59:05] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 16:59:05,614 - INFO - 127.0.0.1 - - [21/Feb/2025 16:59:05] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-02-21 16:59:15,241 - INFO - 127.0.0.1 - - [21/Feb/2025 16:59:15] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 16:59:25,704 - INFO - 127.0.0.1 - - [21/Feb/2025 16:59:25] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 16:59:25,790 - INFO - 127.0.0.1 - - [21/Feb/2025 16:59:25] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 16:59:25,805 - INFO - 127.0.0.1 - - [21/Feb/2025 16:59:25] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-02-21 16:59:25,811 - INFO - 127.0.0.1 - - [21/Feb/2025 16:59:25] "GET /static/images/logo.png HTTP/1.1" 200 -
+2025-02-21 16:59:54,405 - INFO - 127.0.0.1 - - [21/Feb/2025 16:59:54] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 16:59:54,460 - INFO - 127.0.0.1 - - [21/Feb/2025 16:59:54] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 16:59:54,472 - INFO - 127.0.0.1 - - [21/Feb/2025 16:59:54] "GET /static/images/logo.png HTTP/1.1" 200 -
+2025-02-21 16:59:54,480 - INFO - 127.0.0.1 - - [21/Feb/2025 16:59:54] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-02-21 17:03:20,801 - INFO - 127.0.0.1 - - [21/Feb/2025 17:03:20] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 17:03:20,853 - INFO - 127.0.0.1 - - [21/Feb/2025 17:03:20] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 17:03:20,856 - INFO - 127.0.0.1 - - [21/Feb/2025 17:03:20] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 17:03:20,859 - INFO - 127.0.0.1 - - [21/Feb/2025 17:03:20] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-21 17:03:47,504 - INFO - Successfully inserted 512 records
+2025-02-21 17:03:47,674 - INFO - 127.0.0.1 - - [21/Feb/2025 17:03:47] "POST /upload HTTP/1.1" 200 -
+2025-02-21 17:03:57,679 - INFO - 127.0.0.1 - - [21/Feb/2025 17:03:57] "POST /search HTTP/1.1" 200 -
+2025-02-21 17:05:32,851 - INFO - 127.0.0.1 - - [21/Feb/2025 17:05:32] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 17:05:32,923 - INFO - 127.0.0.1 - - [21/Feb/2025 17:05:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 17:05:32,931 - INFO - 127.0.0.1 - - [21/Feb/2025 17:05:32] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 17:05:32,935 - INFO - 127.0.0.1 - - [21/Feb/2025 17:05:32] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-21 17:08:50,457 - INFO - 127.0.0.1 - - [21/Feb/2025 17:08:50] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 17:08:50,514 - INFO - 127.0.0.1 - - [21/Feb/2025 17:08:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 17:08:50,518 - INFO - 127.0.0.1 - - [21/Feb/2025 17:08:50] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 17:08:50,521 - INFO - 127.0.0.1 - - [21/Feb/2025 17:08:50] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-21 17:09:43,820 - INFO - Successfully inserted 512 records
+2025-02-21 17:09:43,961 - INFO - 127.0.0.1 - - [21/Feb/2025 17:09:43] "POST /upload HTTP/1.1" 200 -
+2025-02-21 17:10:43,177 - INFO - 127.0.0.1 - - [21/Feb/2025 17:10:43] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 17:10:43,236 - INFO - 127.0.0.1 - - [21/Feb/2025 17:10:43] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 17:10:43,359 - INFO - 127.0.0.1 - - [21/Feb/2025 17:10:43] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 17:10:43,360 - INFO - 127.0.0.1 - - [21/Feb/2025 17:10:43] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-21 17:14:39,855 - INFO - 127.0.0.1 - - [21/Feb/2025 17:14:39] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 17:14:39,903 - INFO - 127.0.0.1 - - [21/Feb/2025 17:14:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 17:14:39,907 - INFO - 127.0.0.1 - - [21/Feb/2025 17:14:39] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 17:14:39,910 - INFO - 127.0.0.1 - - [21/Feb/2025 17:14:39] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-21 17:14:50,016 - ERROR - Error inserting data: Pandas requires version '2.0.1' or newer of 'xlrd' (version '1.2.0' currently installed).
+2025-02-21 17:14:50,018 - INFO - 127.0.0.1 - - [21/Feb/2025 17:14:50] "POST /upload HTTP/1.1" 200 -
+2025-02-21 17:15:14,210 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-21 17:15:14,210 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-21 17:15:14,212 - INFO -  * Restarting with stat
+2025-02-21 17:15:15,456 - WARNING -  * Debugger is active!
+2025-02-21 17:15:15,464 - INFO -  * Debugger PIN: 110-580-769
+2025-02-21 17:15:17,258 - INFO - 127.0.0.1 - - [21/Feb/2025 17:15:17] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 17:15:17,535 - INFO - 127.0.0.1 - - [21/Feb/2025 17:15:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 17:15:17,544 - INFO - 127.0.0.1 - - [21/Feb/2025 17:15:17] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-21 17:15:17,559 - INFO - 127.0.0.1 - - [21/Feb/2025 17:15:17] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 17:15:28,625 - ERROR - Error inserting data: Pandas requires version '2.0.1' or newer of 'xlrd' (version '1.2.0' currently installed).
+2025-02-21 17:15:28,626 - INFO - 127.0.0.1 - - [21/Feb/2025 17:15:28] "POST /upload HTTP/1.1" 200 -
+2025-02-21 17:15:42,587 - INFO - Successfully inserted 6236 records
+2025-02-21 17:15:43,386 - INFO - 127.0.0.1 - - [21/Feb/2025 17:15:43] "POST /upload HTTP/1.1" 200 -
+2025-02-21 17:15:55,168 - ERROR - Error inserting data: Pandas requires version '2.0.1' or newer of 'xlrd' (version '1.2.0' currently installed).
+2025-02-21 17:15:55,169 - INFO - 127.0.0.1 - - [21/Feb/2025 17:15:55] "POST /upload HTTP/1.1" 200 -
+2025-02-21 17:16:01,236 - INFO - 127.0.0.1 - - [21/Feb/2025 17:16:01] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 17:16:01,295 - INFO - 127.0.0.1 - - [21/Feb/2025 17:16:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 17:16:01,300 - INFO - 127.0.0.1 - - [21/Feb/2025 17:16:01] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 17:16:01,301 - INFO - 127.0.0.1 - - [21/Feb/2025 17:16:01] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-21 17:16:10,354 - ERROR - Error inserting data: Pandas requires version '2.0.1' or newer of 'xlrd' (version '1.2.0' currently installed).
+2025-02-21 17:16:10,355 - INFO - 127.0.0.1 - - [21/Feb/2025 17:16:10] "POST /upload HTTP/1.1" 200 -
+2025-02-21 17:17:09,453 - INFO - 127.0.0.1 - - [21/Feb/2025 17:17:09] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 17:17:09,514 - INFO - 127.0.0.1 - - [21/Feb/2025 17:17:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 17:17:09,524 - INFO - 127.0.0.1 - - [21/Feb/2025 17:17:09] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 17:17:09,527 - INFO - 127.0.0.1 - - [21/Feb/2025 17:17:09] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-21 17:17:17,686 - INFO - Successfully inserted 512 records
+2025-02-21 17:17:17,755 - INFO - 127.0.0.1 - - [21/Feb/2025 17:17:17] "POST /upload HTTP/1.1" 200 -
+2025-02-21 23:14:31,827 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-21 23:14:31,827 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-21 23:14:31,834 - INFO -  * Restarting with stat
+2025-02-21 23:14:33,867 - WARNING -  * Debugger is active!
+2025-02-21 23:14:33,882 - INFO -  * Debugger PIN: 110-580-769
+2025-02-21 23:14:37,696 - INFO - 127.0.0.1 - - [21/Feb/2025 23:14:37] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-02-21 23:14:37,725 - INFO - 127.0.0.1 - - [21/Feb/2025 23:14:37] "GET / HTTP/1.1" 200 -
+2025-02-21 23:14:37,779 - INFO - 127.0.0.1 - - [21/Feb/2025 23:14:37] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-02-21 23:14:37,784 - INFO - 127.0.0.1 - - [21/Feb/2025 23:14:37] "[33mGET /login.js HTTP/1.1[0m" 404 -
+2025-02-21 23:14:37,910 - INFO - 127.0.0.1 - - [21/Feb/2025 23:14:37] "GET / HTTP/1.1" 200 -
+2025-02-21 23:14:38,139 - INFO - 127.0.0.1 - - [21/Feb/2025 23:14:38] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-02-21 23:14:38,144 - INFO - 127.0.0.1 - - [21/Feb/2025 23:14:38] "[33mGET /login.js HTTP/1.1[0m" 404 -
+2025-02-21 23:14:38,265 - INFO - 127.0.0.1 - - [21/Feb/2025 23:14:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-21 23:14:40,678 - INFO - 127.0.0.1 - - [21/Feb/2025 23:14:40] "GET / HTTP/1.1" 200 -
+2025-02-21 23:14:40,762 - INFO - 127.0.0.1 - - [21/Feb/2025 23:14:40] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-02-21 23:14:40,762 - INFO - 127.0.0.1 - - [21/Feb/2025 23:14:40] "[33mGET /login.js HTTP/1.1[0m" 404 -
+2025-02-21 23:14:41,348 - INFO - 127.0.0.1 - - [21/Feb/2025 23:14:41] "GET / HTTP/1.1" 200 -
+2025-02-21 23:14:41,417 - INFO - 127.0.0.1 - - [21/Feb/2025 23:14:41] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-02-21 23:14:41,435 - INFO - 127.0.0.1 - - [21/Feb/2025 23:14:41] "[33mGET /login.js HTTP/1.1[0m" 404 -
+2025-02-21 23:14:43,714 - INFO - 127.0.0.1 - - [21/Feb/2025 23:14:43] "GET /?username=Admin&password=Admin%40123 HTTP/1.1" 200 -
+2025-02-21 23:14:43,832 - INFO - 127.0.0.1 - - [21/Feb/2025 23:14:43] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-02-21 23:14:43,839 - INFO - 127.0.0.1 - - [21/Feb/2025 23:14:43] "[33mGET /login.js HTTP/1.1[0m" 404 -
+2025-02-21 23:14:45,304 - INFO - 127.0.0.1 - - [21/Feb/2025 23:14:45] "GET /?username=Admin&password=Admin%40123 HTTP/1.1" 200 -
+2025-02-21 23:14:45,417 - INFO - 127.0.0.1 - - [21/Feb/2025 23:14:45] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-02-21 23:14:45,422 - INFO - 127.0.0.1 - - [21/Feb/2025 23:14:45] "[33mGET /login.js HTTP/1.1[0m" 404 -
+2025-02-21 23:14:46,784 - INFO - 127.0.0.1 - - [21/Feb/2025 23:14:46] "GET /?username=Admin&password=Admin%40123 HTTP/1.1" 200 -
+2025-02-21 23:14:46,941 - INFO - 127.0.0.1 - - [21/Feb/2025 23:14:46] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-02-21 23:14:46,946 - INFO - 127.0.0.1 - - [21/Feb/2025 23:14:46] "[33mGET /login.js HTTP/1.1[0m" 404 -
+2025-02-21 23:14:47,997 - INFO - 127.0.0.1 - - [21/Feb/2025 23:14:47] "GET /?username=Admin&password=Admin%40123 HTTP/1.1" 200 -
+2025-02-21 23:14:48,078 - INFO - 127.0.0.1 - - [21/Feb/2025 23:14:48] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-02-21 23:14:48,114 - INFO - 127.0.0.1 - - [21/Feb/2025 23:14:48] "[33mGET /login.js HTTP/1.1[0m" 404 -
+2025-02-21 23:15:28,186 - INFO - 127.0.0.1 - - [21/Feb/2025 23:15:28] "GET /?username=Admin&password=Admin%40123 HTTP/1.1" 200 -
+2025-02-21 23:15:28,697 - INFO - 127.0.0.1 - - [21/Feb/2025 23:15:28] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:15:28,728 - INFO - 127.0.0.1 - - [21/Feb/2025 23:15:28] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:15:32,011 - INFO - 127.0.0.1 - - [21/Feb/2025 23:15:32] "POST /login HTTP/1.1" 200 -
+2025-02-21 23:15:32,141 - INFO - 127.0.0.1 - - [21/Feb/2025 23:15:32] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 23:15:32,215 - INFO - 127.0.0.1 - - [21/Feb/2025 23:15:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:15:32,244 - INFO - 127.0.0.1 - - [21/Feb/2025 23:15:32] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 23:15:32,311 - INFO - 127.0.0.1 - - [21/Feb/2025 23:15:32] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-21 23:15:37,111 - INFO - 127.0.0.1 - - [21/Feb/2025 23:15:37] "GET /?username=Admin&password=Admin%40123 HTTP/1.1" 200 -
+2025-02-21 23:15:37,273 - INFO - 127.0.0.1 - - [21/Feb/2025 23:15:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:15:37,279 - INFO - 127.0.0.1 - - [21/Feb/2025 23:15:37] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:15:49,963 - INFO - 127.0.0.1 - - [21/Feb/2025 23:15:49] "GET /?username=Admin&password=Admin%40123 HTTP/1.1" 200 -
+2025-02-21 23:15:50,114 - INFO - 127.0.0.1 - - [21/Feb/2025 23:15:50] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:15:50,124 - INFO - 127.0.0.1 - - [21/Feb/2025 23:15:50] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:26:19,832 - INFO - 127.0.0.1 - - [21/Feb/2025 23:26:19] "GET /?username=Admin&password=Admin%40123 HTTP/1.1" 200 -
+2025-02-21 23:26:19,992 - INFO - 127.0.0.1 - - [21/Feb/2025 23:26:19] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:26:20,000 - INFO - 127.0.0.1 - - [21/Feb/2025 23:26:20] "GET /static/js/login.js HTTP/1.1" 200 -
+2025-02-21 23:26:21,308 - INFO - 127.0.0.1 - - [21/Feb/2025 23:26:21] "GET /?username=Admin&password=Admin%40123 HTTP/1.1" 200 -
+2025-02-21 23:26:21,416 - INFO - 127.0.0.1 - - [21/Feb/2025 23:26:21] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:26:21,422 - INFO - 127.0.0.1 - - [21/Feb/2025 23:26:21] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:26:27,926 - INFO - 127.0.0.1 - - [21/Feb/2025 23:26:27] "GET / HTTP/1.1" 200 -
+2025-02-21 23:26:28,006 - INFO - 127.0.0.1 - - [21/Feb/2025 23:26:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:26:28,014 - INFO - 127.0.0.1 - - [21/Feb/2025 23:26:28] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:30:05,963 - INFO - 127.0.0.1 - - [21/Feb/2025 23:30:05] "GET / HTTP/1.1" 200 -
+2025-02-21 23:30:06,156 - INFO - 127.0.0.1 - - [21/Feb/2025 23:30:06] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:30:06,178 - INFO - 127.0.0.1 - - [21/Feb/2025 23:30:06] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:30:08,794 - INFO - 127.0.0.1 - - [21/Feb/2025 23:30:08] "GET / HTTP/1.1" 200 -
+2025-02-21 23:30:08,882 - INFO - 127.0.0.1 - - [21/Feb/2025 23:30:08] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:30:08,883 - INFO - 127.0.0.1 - - [21/Feb/2025 23:30:08] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:30:36,630 - INFO - 127.0.0.1 - - [21/Feb/2025 23:30:36] "GET / HTTP/1.1" 200 -
+2025-02-21 23:30:36,758 - INFO - 127.0.0.1 - - [21/Feb/2025 23:30:36] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:30:36,761 - INFO - 127.0.0.1 - - [21/Feb/2025 23:30:36] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:30:42,131 - INFO - 127.0.0.1 - - [21/Feb/2025 23:30:42] "GET / HTTP/1.1" 200 -
+2025-02-21 23:30:42,254 - INFO - 127.0.0.1 - - [21/Feb/2025 23:30:42] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:30:42,279 - INFO - 127.0.0.1 - - [21/Feb/2025 23:30:42] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:31:09,306 - INFO - 127.0.0.1 - - [21/Feb/2025 23:31:09] "GET / HTTP/1.1" 200 -
+2025-02-21 23:31:09,398 - INFO - 127.0.0.1 - - [21/Feb/2025 23:31:09] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:31:09,422 - INFO - 127.0.0.1 - - [21/Feb/2025 23:31:09] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:31:19,274 - INFO - 127.0.0.1 - - [21/Feb/2025 23:31:19] "GET / HTTP/1.1" 200 -
+2025-02-21 23:31:19,390 - INFO - 127.0.0.1 - - [21/Feb/2025 23:31:19] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:31:19,416 - INFO - 127.0.0.1 - - [21/Feb/2025 23:31:19] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:31:36,144 - INFO - 127.0.0.1 - - [21/Feb/2025 23:31:36] "GET / HTTP/1.1" 200 -
+2025-02-21 23:31:36,275 - INFO - 127.0.0.1 - - [21/Feb/2025 23:31:36] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:31:36,295 - INFO - 127.0.0.1 - - [21/Feb/2025 23:31:36] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:32:30,695 - INFO - 127.0.0.1 - - [21/Feb/2025 23:32:30] "GET / HTTP/1.1" 200 -
+2025-02-21 23:32:30,814 - INFO - 127.0.0.1 - - [21/Feb/2025 23:32:30] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:32:30,838 - INFO - 127.0.0.1 - - [21/Feb/2025 23:32:30] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:32:38,417 - INFO - 127.0.0.1 - - [21/Feb/2025 23:32:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:33:16,005 - INFO - 127.0.0.1 - - [21/Feb/2025 23:33:16] "GET / HTTP/1.1" 200 -
+2025-02-21 23:33:16,104 - INFO - 127.0.0.1 - - [21/Feb/2025 23:33:16] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:33:16,124 - INFO - 127.0.0.1 - - [21/Feb/2025 23:33:16] "GET /static/js/login.js HTTP/1.1" 200 -
+2025-02-21 23:33:38,681 - INFO - 127.0.0.1 - - [21/Feb/2025 23:33:38] "GET / HTTP/1.1" 200 -
+2025-02-21 23:33:38,859 - INFO - 127.0.0.1 - - [21/Feb/2025 23:33:38] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:33:38,869 - INFO - 127.0.0.1 - - [21/Feb/2025 23:33:38] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:34:17,268 - INFO - 127.0.0.1 - - [21/Feb/2025 23:34:17] "GET / HTTP/1.1" 200 -
+2025-02-21 23:34:17,383 - INFO - 127.0.0.1 - - [21/Feb/2025 23:34:17] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:34:17,405 - INFO - 127.0.0.1 - - [21/Feb/2025 23:34:17] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:34:33,321 - INFO - 127.0.0.1 - - [21/Feb/2025 23:34:33] "GET / HTTP/1.1" 200 -
+2025-02-21 23:34:33,461 - INFO - 127.0.0.1 - - [21/Feb/2025 23:34:33] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:34:33,482 - INFO - 127.0.0.1 - - [21/Feb/2025 23:34:33] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:35:38,161 - INFO - 127.0.0.1 - - [21/Feb/2025 23:35:38] "GET / HTTP/1.1" 200 -
+2025-02-21 23:35:38,339 - INFO - 127.0.0.1 - - [21/Feb/2025 23:35:38] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:35:38,355 - INFO - 127.0.0.1 - - [21/Feb/2025 23:35:38] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:36:08,313 - INFO - 127.0.0.1 - - [21/Feb/2025 23:36:08] "GET / HTTP/1.1" 200 -
+2025-02-21 23:36:08,421 - INFO - 127.0.0.1 - - [21/Feb/2025 23:36:08] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:36:08,442 - INFO - 127.0.0.1 - - [21/Feb/2025 23:36:08] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:36:26,654 - INFO - 127.0.0.1 - - [21/Feb/2025 23:36:26] "GET / HTTP/1.1" 200 -
+2025-02-21 23:36:26,817 - INFO - 127.0.0.1 - - [21/Feb/2025 23:36:26] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:36:26,836 - INFO - 127.0.0.1 - - [21/Feb/2025 23:36:26] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:36:36,679 - INFO - 127.0.0.1 - - [21/Feb/2025 23:36:36] "GET / HTTP/1.1" 200 -
+2025-02-21 23:36:36,850 - INFO - 127.0.0.1 - - [21/Feb/2025 23:36:36] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:36:36,855 - INFO - 127.0.0.1 - - [21/Feb/2025 23:36:36] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:36:48,913 - INFO - 127.0.0.1 - - [21/Feb/2025 23:36:48] "GET / HTTP/1.1" 200 -
+2025-02-21 23:36:49,033 - INFO - 127.0.0.1 - - [21/Feb/2025 23:36:49] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:36:49,060 - INFO - 127.0.0.1 - - [21/Feb/2025 23:36:49] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:37:18,898 - INFO - 127.0.0.1 - - [21/Feb/2025 23:37:18] "GET / HTTP/1.1" 200 -
+2025-02-21 23:37:19,010 - INFO - 127.0.0.1 - - [21/Feb/2025 23:37:19] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:37:19,031 - INFO - 127.0.0.1 - - [21/Feb/2025 23:37:19] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:37:31,057 - INFO - 127.0.0.1 - - [21/Feb/2025 23:37:31] "GET / HTTP/1.1" 200 -
+2025-02-21 23:37:31,162 - INFO - 127.0.0.1 - - [21/Feb/2025 23:37:31] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:37:31,184 - INFO - 127.0.0.1 - - [21/Feb/2025 23:37:31] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:37:46,904 - INFO - 127.0.0.1 - - [21/Feb/2025 23:37:46] "GET / HTTP/1.1" 200 -
+2025-02-21 23:37:47,027 - INFO - 127.0.0.1 - - [21/Feb/2025 23:37:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:37:47,064 - INFO - 127.0.0.1 - - [21/Feb/2025 23:37:47] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:37:58,678 - INFO - 127.0.0.1 - - [21/Feb/2025 23:37:58] "GET / HTTP/1.1" 200 -
+2025-02-21 23:37:58,811 - INFO - 127.0.0.1 - - [21/Feb/2025 23:37:58] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:37:58,827 - INFO - 127.0.0.1 - - [21/Feb/2025 23:37:58] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:38:07,603 - INFO - 127.0.0.1 - - [21/Feb/2025 23:38:07] "GET / HTTP/1.1" 200 -
+2025-02-21 23:38:07,696 - INFO - 127.0.0.1 - - [21/Feb/2025 23:38:07] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:38:07,722 - INFO - 127.0.0.1 - - [21/Feb/2025 23:38:07] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:38:21,593 - INFO - 127.0.0.1 - - [21/Feb/2025 23:38:21] "GET / HTTP/1.1" 200 -
+2025-02-21 23:38:21,761 - INFO - 127.0.0.1 - - [21/Feb/2025 23:38:21] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:38:21,768 - INFO - 127.0.0.1 - - [21/Feb/2025 23:38:21] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:38:37,929 - INFO - 127.0.0.1 - - [21/Feb/2025 23:38:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:40:30,263 - INFO - 127.0.0.1 - - [21/Feb/2025 23:40:30] "GET / HTTP/1.1" 200 -
+2025-02-21 23:40:30,337 - INFO - 127.0.0.1 - - [21/Feb/2025 23:40:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:40:30,359 - INFO - 127.0.0.1 - - [21/Feb/2025 23:40:30] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:40:52,351 - INFO - 127.0.0.1 - - [21/Feb/2025 23:40:52] "GET / HTTP/1.1" 200 -
+2025-02-21 23:40:52,435 - INFO - 127.0.0.1 - - [21/Feb/2025 23:40:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:40:52,444 - INFO - 127.0.0.1 - - [21/Feb/2025 23:40:52] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:41:05,269 - INFO - 127.0.0.1 - - [21/Feb/2025 23:41:05] "GET / HTTP/1.1" 200 -
+2025-02-21 23:41:05,364 - INFO - 127.0.0.1 - - [21/Feb/2025 23:41:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:41:05,381 - INFO - 127.0.0.1 - - [21/Feb/2025 23:41:05] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:43:01,595 - INFO - 127.0.0.1 - - [21/Feb/2025 23:43:01] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 23:43:01,709 - INFO - 127.0.0.1 - - [21/Feb/2025 23:43:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:43:01,715 - INFO - 127.0.0.1 - - [21/Feb/2025 23:43:01] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 23:43:01,717 - INFO - 127.0.0.1 - - [21/Feb/2025 23:43:01] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-21 23:43:06,514 - INFO - 127.0.0.1 - - [21/Feb/2025 23:43:06] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 23:43:06,632 - INFO - 127.0.0.1 - - [21/Feb/2025 23:43:06] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 23:43:06,634 - INFO - 127.0.0.1 - - [21/Feb/2025 23:43:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:43:06,636 - INFO - 127.0.0.1 - - [21/Feb/2025 23:43:06] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-21 23:43:46,277 - INFO - 127.0.0.1 - - [21/Feb/2025 23:43:46] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 23:43:46,401 - INFO - 127.0.0.1 - - [21/Feb/2025 23:43:46] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 23:43:46,403 - INFO - 127.0.0.1 - - [21/Feb/2025 23:43:46] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-21 23:43:46,417 - INFO - 127.0.0.1 - - [21/Feb/2025 23:43:46] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:43:47,278 - INFO - 127.0.0.1 - - [21/Feb/2025 23:43:47] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 23:43:47,367 - INFO - 127.0.0.1 - - [21/Feb/2025 23:43:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:43:47,370 - INFO - 127.0.0.1 - - [21/Feb/2025 23:43:47] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 23:43:47,373 - INFO - 127.0.0.1 - - [21/Feb/2025 23:43:47] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-21 23:43:47,624 - INFO - 127.0.0.1 - - [21/Feb/2025 23:43:47] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 23:43:47,799 - INFO - 127.0.0.1 - - [21/Feb/2025 23:43:47] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 23:43:47,801 - INFO - 127.0.0.1 - - [21/Feb/2025 23:43:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:43:47,808 - INFO - 127.0.0.1 - - [21/Feb/2025 23:43:47] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 23:43:47,810 - INFO - 127.0.0.1 - - [21/Feb/2025 23:43:47] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-21 23:43:47,898 - INFO - 127.0.0.1 - - [21/Feb/2025 23:43:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:43:47,907 - INFO - 127.0.0.1 - - [21/Feb/2025 23:43:47] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 23:43:47,917 - INFO - 127.0.0.1 - - [21/Feb/2025 23:43:47] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-21 23:43:48,006 - INFO - 127.0.0.1 - - [21/Feb/2025 23:43:48] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 23:43:48,080 - INFO - 127.0.0.1 - - [21/Feb/2025 23:43:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:43:48,088 - INFO - 127.0.0.1 - - [21/Feb/2025 23:43:48] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 23:43:48,091 - INFO - 127.0.0.1 - - [21/Feb/2025 23:43:48] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-21 23:43:48,743 - INFO - 127.0.0.1 - - [21/Feb/2025 23:43:48] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 23:43:48,880 - INFO - 127.0.0.1 - - [21/Feb/2025 23:43:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:43:48,888 - INFO - 127.0.0.1 - - [21/Feb/2025 23:43:48] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 23:43:48,893 - INFO - 127.0.0.1 - - [21/Feb/2025 23:43:48] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-21 23:43:58,155 - INFO - 127.0.0.1 - - [21/Feb/2025 23:43:58] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 23:43:58,325 - INFO - 127.0.0.1 - - [21/Feb/2025 23:43:58] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 23:43:58,329 - INFO - 127.0.0.1 - - [21/Feb/2025 23:43:58] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-21 23:43:58,358 - INFO - 127.0.0.1 - - [21/Feb/2025 23:43:58] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:43:59,255 - INFO - 127.0.0.1 - - [21/Feb/2025 23:43:59] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 23:43:59,387 - INFO - 127.0.0.1 - - [21/Feb/2025 23:43:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:43:59,395 - INFO - 127.0.0.1 - - [21/Feb/2025 23:43:59] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 23:43:59,397 - INFO - 127.0.0.1 - - [21/Feb/2025 23:43:59] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-21 23:45:27,831 - INFO - 127.0.0.1 - - [21/Feb/2025 23:45:27] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 23:45:27,934 - INFO - 127.0.0.1 - - [21/Feb/2025 23:45:27] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 23:45:27,937 - INFO - 127.0.0.1 - - [21/Feb/2025 23:45:27] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-21 23:45:27,951 - INFO - 127.0.0.1 - - [21/Feb/2025 23:45:27] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:45:38,443 - INFO - 127.0.0.1 - - [21/Feb/2025 23:45:38] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 23:45:38,538 - INFO - 127.0.0.1 - - [21/Feb/2025 23:45:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:45:38,548 - INFO - 127.0.0.1 - - [21/Feb/2025 23:45:38] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 23:45:38,549 - INFO - 127.0.0.1 - - [21/Feb/2025 23:45:38] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-21 23:46:26,394 - INFO - 127.0.0.1 - - [21/Feb/2025 23:46:26] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 23:46:26,511 - INFO - 127.0.0.1 - - [21/Feb/2025 23:46:26] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 23:46:26,513 - INFO - 127.0.0.1 - - [21/Feb/2025 23:46:26] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-21 23:46:26,525 - INFO - 127.0.0.1 - - [21/Feb/2025 23:46:26] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:46:46,419 - INFO - 127.0.0.1 - - [21/Feb/2025 23:46:46] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 23:46:46,500 - INFO - 127.0.0.1 - - [21/Feb/2025 23:46:46] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 23:46:46,522 - INFO - 127.0.0.1 - - [21/Feb/2025 23:46:46] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-21 23:46:46,526 - INFO - 127.0.0.1 - - [21/Feb/2025 23:46:46] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:47:04,665 - INFO - 127.0.0.1 - - [21/Feb/2025 23:47:04] "GET /dashboard HTTP/1.1" 200 -
+2025-02-21 23:47:04,754 - INFO - 127.0.0.1 - - [21/Feb/2025 23:47:04] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-21 23:47:04,755 - INFO - 127.0.0.1 - - [21/Feb/2025 23:47:04] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-21 23:47:04,767 - INFO - 127.0.0.1 - - [21/Feb/2025 23:47:04] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:48:04,138 - INFO - Successfully inserted 512 records
+2025-02-21 23:48:04,275 - INFO - 127.0.0.1 - - [21/Feb/2025 23:48:04] "POST /upload HTTP/1.1" 200 -
+2025-02-21 23:48:17,244 - INFO - 127.0.0.1 - - [21/Feb/2025 23:48:17] "POST /search HTTP/1.1" 200 -
+2025-02-21 23:48:47,993 - INFO - 127.0.0.1 - - [21/Feb/2025 23:48:47] "GET / HTTP/1.1" 200 -
+2025-02-21 23:48:48,173 - INFO - 127.0.0.1 - - [21/Feb/2025 23:48:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:48:48,193 - INFO - 127.0.0.1 - - [21/Feb/2025 23:48:48] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:51:04,873 - INFO - 127.0.0.1 - - [21/Feb/2025 23:51:04] "GET / HTTP/1.1" 200 -
+2025-02-21 23:51:04,968 - INFO - 127.0.0.1 - - [21/Feb/2025 23:51:04] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:51:04,973 - INFO - 127.0.0.1 - - [21/Feb/2025 23:51:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:51:05,000 - INFO - 127.0.0.1 - - [21/Feb/2025 23:51:05] "GET /static/images/techwrk.png HTTP/1.1" 200 -
+2025-02-21 23:51:06,113 - INFO - 127.0.0.1 - - [21/Feb/2025 23:51:06] "GET / HTTP/1.1" 200 -
+2025-02-21 23:51:06,244 - INFO - 127.0.0.1 - - [21/Feb/2025 23:51:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:51:06,250 - INFO - 127.0.0.1 - - [21/Feb/2025 23:51:06] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:51:06,265 - INFO - 127.0.0.1 - - [21/Feb/2025 23:51:06] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:51:07,053 - INFO - 127.0.0.1 - - [21/Feb/2025 23:51:07] "GET / HTTP/1.1" 200 -
+2025-02-21 23:51:07,264 - INFO - 127.0.0.1 - - [21/Feb/2025 23:51:07] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:51:07,271 - INFO - 127.0.0.1 - - [21/Feb/2025 23:51:07] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:51:07,272 - INFO - 127.0.0.1 - - [21/Feb/2025 23:51:07] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:51:53,049 - INFO - 127.0.0.1 - - [21/Feb/2025 23:51:53] "GET / HTTP/1.1" 200 -
+2025-02-21 23:51:53,163 - INFO - 127.0.0.1 - - [21/Feb/2025 23:51:53] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:51:53,168 - INFO - 127.0.0.1 - - [21/Feb/2025 23:51:53] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:51:53,173 - INFO - 127.0.0.1 - - [21/Feb/2025 23:51:53] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:52:04,552 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-21 23:52:04,553 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-21 23:52:04,559 - INFO -  * Restarting with stat
+2025-02-21 23:52:07,142 - WARNING -  * Debugger is active!
+2025-02-21 23:52:07,195 - INFO -  * Debugger PIN: 110-580-769
+2025-02-21 23:52:07,361 - INFO - 127.0.0.1 - - [21/Feb/2025 23:52:07] "GET / HTTP/1.1" 200 -
+2025-02-21 23:52:07,758 - INFO - 127.0.0.1 - - [21/Feb/2025 23:52:07] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:52:07,776 - INFO - 127.0.0.1 - - [21/Feb/2025 23:52:07] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:52:07,783 - INFO - 127.0.0.1 - - [21/Feb/2025 23:52:07] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:52:58,169 - INFO - 127.0.0.1 - - [21/Feb/2025 23:52:58] "GET / HTTP/1.1" 200 -
+2025-02-21 23:52:58,292 - INFO - 127.0.0.1 - - [21/Feb/2025 23:52:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:52:58,305 - INFO - 127.0.0.1 - - [21/Feb/2025 23:52:58] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:52:58,307 - INFO - 127.0.0.1 - - [21/Feb/2025 23:52:58] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:53:04,494 - INFO - 127.0.0.1 - - [21/Feb/2025 23:53:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:54:01,613 - INFO - 127.0.0.1 - - [21/Feb/2025 23:54:01] "GET / HTTP/1.1" 200 -
+2025-02-21 23:54:01,792 - INFO - 127.0.0.1 - - [21/Feb/2025 23:54:01] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:54:01,794 - INFO - 127.0.0.1 - - [21/Feb/2025 23:54:01] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:54:01,802 - INFO - 127.0.0.1 - - [21/Feb/2025 23:54:01] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:54:07,405 - INFO - 127.0.0.1 - - [21/Feb/2025 23:54:07] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:55:21,631 - INFO - 127.0.0.1 - - [21/Feb/2025 23:55:21] "GET / HTTP/1.1" 200 -
+2025-02-21 23:55:21,745 - INFO - 127.0.0.1 - - [21/Feb/2025 23:55:21] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:55:21,759 - INFO - 127.0.0.1 - - [21/Feb/2025 23:55:21] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:55:21,760 - INFO - 127.0.0.1 - - [21/Feb/2025 23:55:21] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:55:43,599 - INFO - 127.0.0.1 - - [21/Feb/2025 23:55:43] "GET / HTTP/1.1" 200 -
+2025-02-21 23:55:43,743 - INFO - 127.0.0.1 - - [21/Feb/2025 23:55:43] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:55:43,749 - INFO - 127.0.0.1 - - [21/Feb/2025 23:55:43] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:55:43,766 - INFO - 127.0.0.1 - - [21/Feb/2025 23:55:43] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:55:55,601 - INFO - 127.0.0.1 - - [21/Feb/2025 23:55:55] "GET / HTTP/1.1" 200 -
+2025-02-21 23:55:55,736 - INFO - 127.0.0.1 - - [21/Feb/2025 23:55:55] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:55:55,745 - INFO - 127.0.0.1 - - [21/Feb/2025 23:55:55] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:55:55,765 - INFO - 127.0.0.1 - - [21/Feb/2025 23:55:55] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:56:09,787 - INFO - 127.0.0.1 - - [21/Feb/2025 23:56:09] "GET / HTTP/1.1" 200 -
+2025-02-21 23:56:09,872 - INFO - 127.0.0.1 - - [21/Feb/2025 23:56:09] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:56:09,882 - INFO - 127.0.0.1 - - [21/Feb/2025 23:56:09] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:56:09,901 - INFO - 127.0.0.1 - - [21/Feb/2025 23:56:09] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:56:20,123 - INFO - 127.0.0.1 - - [21/Feb/2025 23:56:20] "GET / HTTP/1.1" 200 -
+2025-02-21 23:56:20,251 - INFO - 127.0.0.1 - - [21/Feb/2025 23:56:20] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:56:20,254 - INFO - 127.0.0.1 - - [21/Feb/2025 23:56:20] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:56:20,254 - INFO - 127.0.0.1 - - [21/Feb/2025 23:56:20] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:56:27,149 - INFO - 127.0.0.1 - - [21/Feb/2025 23:56:27] "GET / HTTP/1.1" 200 -
+2025-02-21 23:56:27,254 - INFO - 127.0.0.1 - - [21/Feb/2025 23:56:27] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:56:27,261 - INFO - 127.0.0.1 - - [21/Feb/2025 23:56:27] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:56:27,270 - INFO - 127.0.0.1 - - [21/Feb/2025 23:56:27] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:56:44,253 - INFO - 127.0.0.1 - - [21/Feb/2025 23:56:44] "GET / HTTP/1.1" 200 -
+2025-02-21 23:56:44,374 - INFO - 127.0.0.1 - - [21/Feb/2025 23:56:44] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:56:44,376 - INFO - 127.0.0.1 - - [21/Feb/2025 23:56:44] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:56:44,394 - INFO - 127.0.0.1 - - [21/Feb/2025 23:56:44] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:56:44,843 - INFO - 127.0.0.1 - - [21/Feb/2025 23:56:44] "GET / HTTP/1.1" 200 -
+2025-02-21 23:56:44,935 - INFO - 127.0.0.1 - - [21/Feb/2025 23:56:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:56:44,945 - INFO - 127.0.0.1 - - [21/Feb/2025 23:56:44] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:56:44,947 - INFO - 127.0.0.1 - - [21/Feb/2025 23:56:44] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:56:45,159 - INFO - 127.0.0.1 - - [21/Feb/2025 23:56:45] "GET / HTTP/1.1" 200 -
+2025-02-21 23:56:45,243 - INFO - 127.0.0.1 - - [21/Feb/2025 23:56:45] "GET / HTTP/1.1" 200 -
+2025-02-21 23:56:45,281 - INFO - 127.0.0.1 - - [21/Feb/2025 23:56:45] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:56:45,292 - INFO - 127.0.0.1 - - [21/Feb/2025 23:56:45] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:56:45,297 - INFO - 127.0.0.1 - - [21/Feb/2025 23:56:45] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:56:45,374 - INFO - 127.0.0.1 - - [21/Feb/2025 23:56:45] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:56:45,378 - INFO - 127.0.0.1 - - [21/Feb/2025 23:56:45] "GET /static/js/login.js HTTP/1.1" 200 -
+2025-02-21 23:56:45,380 - INFO - 127.0.0.1 - - [21/Feb/2025 23:56:45] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:56:53,580 - INFO - 127.0.0.1 - - [21/Feb/2025 23:56:53] "GET / HTTP/1.1" 200 -
+2025-02-21 23:56:53,763 - INFO - 127.0.0.1 - - [21/Feb/2025 23:56:53] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:56:53,763 - INFO - 127.0.0.1 - - [21/Feb/2025 23:56:53] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:56:53,790 - INFO - 127.0.0.1 - - [21/Feb/2025 23:56:53] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:56:54,156 - INFO - 127.0.0.1 - - [21/Feb/2025 23:56:54] "GET / HTTP/1.1" 200 -
+2025-02-21 23:56:54,339 - INFO - 127.0.0.1 - - [21/Feb/2025 23:56:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:56:54,355 - INFO - 127.0.0.1 - - [21/Feb/2025 23:56:54] "GET / HTTP/1.1" 200 -
+2025-02-21 23:56:54,364 - INFO - 127.0.0.1 - - [21/Feb/2025 23:56:54] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:56:54,379 - INFO - 127.0.0.1 - - [21/Feb/2025 23:56:54] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:56:54,432 - INFO - 127.0.0.1 - - [21/Feb/2025 23:56:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:56:54,477 - INFO - 127.0.0.1 - - [21/Feb/2025 23:56:54] "GET /static/js/login.js HTTP/1.1" 200 -
+2025-02-21 23:56:54,479 - INFO - 127.0.0.1 - - [21/Feb/2025 23:56:54] "GET /static/images/techwrk.png HTTP/1.1" 200 -
+2025-02-21 23:57:02,809 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:02] "GET / HTTP/1.1" 200 -
+2025-02-21 23:57:02,977 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:02] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:57:02,982 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:02] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:57:02,996 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:02] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:57:03,423 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:03] "GET / HTTP/1.1" 200 -
+2025-02-21 23:57:03,559 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:57:03,573 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:03] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:57:03,578 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:03] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:57:03,630 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:03] "GET / HTTP/1.1" 200 -
+2025-02-21 23:57:03,724 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:57:03,733 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:03] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:57:03,735 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:03] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:57:03,778 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:03] "GET / HTTP/1.1" 200 -
+2025-02-21 23:57:03,888 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:57:03,896 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:03] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:57:03,898 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:03] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:57:18,211 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:18] "GET / HTTP/1.1" 200 -
+2025-02-21 23:57:18,294 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:57:18,305 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:18] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:57:18,307 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:18] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:57:18,811 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:18] "GET / HTTP/1.1" 200 -
+2025-02-21 23:57:18,902 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:57:18,906 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:18] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:57:18,911 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:18] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:57:18,994 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:18] "GET / HTTP/1.1" 200 -
+2025-02-21 23:57:19,071 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:57:19,079 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:19] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:57:19,081 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:19] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:57:19,156 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:19] "GET / HTTP/1.1" 200 -
+2025-02-21 23:57:19,235 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:57:19,242 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:19] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:57:19,245 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:19] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:57:40,618 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:40] "GET / HTTP/1.1" 200 -
+2025-02-21 23:57:40,754 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:40] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:57:40,763 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:40] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:57:40,772 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:40] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:57:41,240 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:41] "GET / HTTP/1.1" 200 -
+2025-02-21 23:57:41,393 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:41] "GET / HTTP/1.1" 200 -
+2025-02-21 23:57:41,397 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:57:41,401 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:41] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:57:41,416 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:41] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:57:41,491 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:57:41,495 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:41] "GET /static/images/techwrk.png HTTP/1.1" 200 -
+2025-02-21 23:57:41,498 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:41] "GET /static/js/login.js HTTP/1.1" 200 -
+2025-02-21 23:57:41,617 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:41] "GET / HTTP/1.1" 200 -
+2025-02-21 23:57:41,704 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:57:41,709 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:41] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:57:41,715 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:41] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:57:41,852 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:41] "GET / HTTP/1.1" 200 -
+2025-02-21 23:57:41,933 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:57:41,956 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:41] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:57:41,966 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:41] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:57:41,984 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:41] "GET / HTTP/1.1" 200 -
+2025-02-21 23:57:42,091 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:57:42,101 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:42] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:57:42,103 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:42] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:57:52,675 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:52] "GET / HTTP/1.1" 200 -
+2025-02-21 23:57:52,767 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:52] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:57:52,776 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:52] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:57:52,795 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:52] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:57:53,553 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:53] "GET / HTTP/1.1" 200 -
+2025-02-21 23:57:53,637 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:57:53,648 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:53] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:57:53,649 - INFO - 127.0.0.1 - - [21/Feb/2025 23:57:53] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:58:04,621 - INFO - 127.0.0.1 - - [21/Feb/2025 23:58:04] "GET / HTTP/1.1" 200 -
+2025-02-21 23:58:04,761 - INFO - 127.0.0.1 - - [21/Feb/2025 23:58:04] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:58:04,771 - INFO - 127.0.0.1 - - [21/Feb/2025 23:58:04] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:58:04,785 - INFO - 127.0.0.1 - - [21/Feb/2025 23:58:04] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:58:13,381 - INFO - 127.0.0.1 - - [21/Feb/2025 23:58:13] "GET / HTTP/1.1" 200 -
+2025-02-21 23:58:13,544 - INFO - 127.0.0.1 - - [21/Feb/2025 23:58:13] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:58:13,552 - INFO - 127.0.0.1 - - [21/Feb/2025 23:58:13] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:58:13,561 - INFO - 127.0.0.1 - - [21/Feb/2025 23:58:13] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:58:20,682 - INFO - 127.0.0.1 - - [21/Feb/2025 23:58:20] "GET / HTTP/1.1" 200 -
+2025-02-21 23:58:20,761 - INFO - 127.0.0.1 - - [21/Feb/2025 23:58:20] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:58:20,767 - INFO - 127.0.0.1 - - [21/Feb/2025 23:58:20] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:58:20,788 - INFO - 127.0.0.1 - - [21/Feb/2025 23:58:20] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:58:27,964 - INFO - 127.0.0.1 - - [21/Feb/2025 23:58:27] "GET / HTTP/1.1" 200 -
+2025-02-21 23:58:28,074 - INFO - 127.0.0.1 - - [21/Feb/2025 23:58:28] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:58:28,083 - INFO - 127.0.0.1 - - [21/Feb/2025 23:58:28] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:58:28,101 - INFO - 127.0.0.1 - - [21/Feb/2025 23:58:28] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:58:36,920 - INFO - 127.0.0.1 - - [21/Feb/2025 23:58:36] "GET / HTTP/1.1" 200 -
+2025-02-21 23:58:37,044 - INFO - 127.0.0.1 - - [21/Feb/2025 23:58:37] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:58:37,046 - INFO - 127.0.0.1 - - [21/Feb/2025 23:58:37] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:58:37,048 - INFO - 127.0.0.1 - - [21/Feb/2025 23:58:37] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:58:37,465 - INFO - 127.0.0.1 - - [21/Feb/2025 23:58:37] "GET / HTTP/1.1" 200 -
+2025-02-21 23:58:37,552 - INFO - 127.0.0.1 - - [21/Feb/2025 23:58:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:58:37,559 - INFO - 127.0.0.1 - - [21/Feb/2025 23:58:37] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:58:37,563 - INFO - 127.0.0.1 - - [21/Feb/2025 23:58:37] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:58:37,679 - INFO - 127.0.0.1 - - [21/Feb/2025 23:58:37] "GET / HTTP/1.1" 200 -
+2025-02-21 23:58:37,755 - INFO - 127.0.0.1 - - [21/Feb/2025 23:58:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:58:37,764 - INFO - 127.0.0.1 - - [21/Feb/2025 23:58:37] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:58:37,766 - INFO - 127.0.0.1 - - [21/Feb/2025 23:58:37] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:58:42,033 - INFO - 127.0.0.1 - - [21/Feb/2025 23:58:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-21 23:59:22,740 - INFO - 127.0.0.1 - - [21/Feb/2025 23:59:22] "GET / HTTP/1.1" 200 -
+2025-02-21 23:59:22,962 - INFO - 127.0.0.1 - - [21/Feb/2025 23:59:22] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:59:22,980 - INFO - 127.0.0.1 - - [21/Feb/2025 23:59:22] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:59:22,986 - INFO - 127.0.0.1 - - [21/Feb/2025 23:59:22] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:59:48,730 - INFO - 127.0.0.1 - - [21/Feb/2025 23:59:48] "GET / HTTP/1.1" 200 -
+2025-02-21 23:59:48,911 - INFO - 127.0.0.1 - - [21/Feb/2025 23:59:48] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-21 23:59:48,927 - INFO - 127.0.0.1 - - [21/Feb/2025 23:59:48] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:59:48,929 - INFO - 127.0.0.1 - - [21/Feb/2025 23:59:48] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:59:55,211 - INFO - 127.0.0.1 - - [21/Feb/2025 23:59:55] "GET / HTTP/1.1" 200 -
+2025-02-21 23:59:55,363 - INFO - 127.0.0.1 - - [21/Feb/2025 23:59:55] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-21 23:59:55,368 - INFO - 127.0.0.1 - - [21/Feb/2025 23:59:55] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-21 23:59:55,385 - INFO - 127.0.0.1 - - [21/Feb/2025 23:59:55] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-22 00:00:05,111 - INFO - 127.0.0.1 - - [22/Feb/2025 00:00:05] "GET /dashboard HTTP/1.1" 200 -
+2025-02-22 00:00:05,235 - INFO - 127.0.0.1 - - [22/Feb/2025 00:00:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 00:00:05,236 - INFO - 127.0.0.1 - - [22/Feb/2025 00:00:05] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-22 00:00:05,241 - INFO - 127.0.0.1 - - [22/Feb/2025 00:00:05] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-22 00:00:14,534 - INFO - Successfully inserted 512 records
+2025-02-22 00:00:14,643 - INFO - 127.0.0.1 - - [22/Feb/2025 00:00:14] "POST /upload HTTP/1.1" 200 -
+2025-02-22 00:00:22,782 - INFO - 127.0.0.1 - - [22/Feb/2025 00:00:22] "POST /search HTTP/1.1" 200 -
+2025-02-22 00:04:44,487 - INFO - 127.0.0.1 - - [22/Feb/2025 00:04:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 00:05:42,449 - INFO - 127.0.0.1 - - [22/Feb/2025 00:05:42] "GET /dashboard HTTP/1.1" 200 -
+2025-02-22 00:05:42,650 - INFO - 127.0.0.1 - - [22/Feb/2025 00:05:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 00:05:42,664 - INFO - 127.0.0.1 - - [22/Feb/2025 00:05:42] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-22 00:05:42,665 - INFO - 127.0.0.1 - - [22/Feb/2025 00:05:42] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-22 00:06:32,936 - INFO - 127.0.0.1 - - [22/Feb/2025 00:06:32] "GET /dashboard HTTP/1.1" 200 -
+2025-02-22 00:06:33,053 - INFO - 127.0.0.1 - - [22/Feb/2025 00:06:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 00:06:33,091 - INFO - 127.0.0.1 - - [22/Feb/2025 00:06:33] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-22 00:06:33,094 - INFO - 127.0.0.1 - - [22/Feb/2025 00:06:33] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2025-02-22 10:38:42,928 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-22 10:38:42,929 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-22 10:38:42,937 - INFO -  * Restarting with stat
+2025-02-22 10:38:44,734 - WARNING -  * Debugger is active!
+2025-02-22 10:38:44,748 - INFO -  * Debugger PIN: 110-580-769
+2025-02-22 10:38:46,206 - INFO - 127.0.0.1 - - [22/Feb/2025 10:38:46] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-02-22 10:38:46,235 - INFO - 127.0.0.1 - - [22/Feb/2025 10:38:46] "GET / HTTP/1.1" 200 -
+2025-02-22 10:38:46,551 - INFO - 127.0.0.1 - - [22/Feb/2025 10:38:46] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:38:46,572 - INFO - 127.0.0.1 - - [22/Feb/2025 10:38:46] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:38:46,579 - INFO - 127.0.0.1 - - [22/Feb/2025 10:38:46] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 10:38:46,761 - INFO - 127.0.0.1 - - [22/Feb/2025 10:38:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-22 10:38:53,023 - INFO - 127.0.0.1 - - [22/Feb/2025 10:38:53] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-02-22 10:38:53,040 - INFO - 127.0.0.1 - - [22/Feb/2025 10:38:53] "GET / HTTP/1.1" 200 -
+2025-02-22 10:38:53,123 - INFO - 127.0.0.1 - - [22/Feb/2025 10:38:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 10:38:53,127 - INFO - 127.0.0.1 - - [22/Feb/2025 10:38:53] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:38:53,132 - INFO - 127.0.0.1 - - [22/Feb/2025 10:38:53] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:38:54,809 - INFO - 127.0.0.1 - - [22/Feb/2025 10:38:54] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-02-22 10:38:54,831 - INFO - 127.0.0.1 - - [22/Feb/2025 10:38:54] "GET / HTTP/1.1" 200 -
+2025-02-22 10:38:54,900 - INFO - 127.0.0.1 - - [22/Feb/2025 10:38:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 10:38:54,904 - INFO - 127.0.0.1 - - [22/Feb/2025 10:38:54] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:38:54,905 - INFO - 127.0.0.1 - - [22/Feb/2025 10:38:54] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:38:55,710 - INFO - 127.0.0.1 - - [22/Feb/2025 10:38:55] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-02-22 10:38:55,739 - INFO - 127.0.0.1 - - [22/Feb/2025 10:38:55] "GET / HTTP/1.1" 200 -
+2025-02-22 10:38:55,799 - INFO - 127.0.0.1 - - [22/Feb/2025 10:38:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 10:38:55,807 - INFO - 127.0.0.1 - - [22/Feb/2025 10:38:55] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:38:55,807 - INFO - 127.0.0.1 - - [22/Feb/2025 10:38:55] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:38:56,721 - INFO - 127.0.0.1 - - [22/Feb/2025 10:38:56] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-02-22 10:38:56,730 - INFO - 127.0.0.1 - - [22/Feb/2025 10:38:56] "GET / HTTP/1.1" 200 -
+2025-02-22 10:38:56,802 - INFO - 127.0.0.1 - - [22/Feb/2025 10:38:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 10:38:56,809 - INFO - 127.0.0.1 - - [22/Feb/2025 10:38:56] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:38:56,811 - INFO - 127.0.0.1 - - [22/Feb/2025 10:38:56] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:39:02,367 - INFO - 127.0.0.1 - - [22/Feb/2025 10:39:02] "GET / HTTP/1.1" 200 -
+2025-02-22 10:39:02,434 - INFO - 127.0.0.1 - - [22/Feb/2025 10:39:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 10:39:02,439 - INFO - 127.0.0.1 - - [22/Feb/2025 10:39:02] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:39:02,441 - INFO - 127.0.0.1 - - [22/Feb/2025 10:39:02] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:39:03,831 - INFO - 127.0.0.1 - - [22/Feb/2025 10:39:03] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-02-22 10:39:03,858 - INFO - 127.0.0.1 - - [22/Feb/2025 10:39:03] "GET / HTTP/1.1" 200 -
+2025-02-22 10:39:03,915 - INFO - 127.0.0.1 - - [22/Feb/2025 10:39:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 10:39:03,923 - INFO - 127.0.0.1 - - [22/Feb/2025 10:39:03] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:39:03,924 - INFO - 127.0.0.1 - - [22/Feb/2025 10:39:03] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:39:04,733 - INFO - 127.0.0.1 - - [22/Feb/2025 10:39:04] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-02-22 10:39:04,755 - INFO - 127.0.0.1 - - [22/Feb/2025 10:39:04] "GET / HTTP/1.1" 200 -
+2025-02-22 10:39:04,817 - INFO - 127.0.0.1 - - [22/Feb/2025 10:39:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 10:39:04,827 - INFO - 127.0.0.1 - - [22/Feb/2025 10:39:04] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:39:04,833 - INFO - 127.0.0.1 - - [22/Feb/2025 10:39:04] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:39:11,048 - INFO - 127.0.0.1 - - [22/Feb/2025 10:39:11] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-02-22 10:39:11,070 - INFO - 127.0.0.1 - - [22/Feb/2025 10:39:11] "GET / HTTP/1.1" 200 -
+2025-02-22 10:39:11,134 - INFO - 127.0.0.1 - - [22/Feb/2025 10:39:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 10:39:11,143 - INFO - 127.0.0.1 - - [22/Feb/2025 10:39:11] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:39:11,143 - INFO - 127.0.0.1 - - [22/Feb/2025 10:39:11] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:39:39,312 - INFO - 127.0.0.1 - - [22/Feb/2025 10:39:39] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-02-22 10:39:39,326 - INFO - 127.0.0.1 - - [22/Feb/2025 10:39:39] "GET / HTTP/1.1" 200 -
+2025-02-22 10:39:39,379 - INFO - 127.0.0.1 - - [22/Feb/2025 10:39:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 10:39:39,402 - INFO - 127.0.0.1 - - [22/Feb/2025 10:39:39] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:39:39,403 - INFO - 127.0.0.1 - - [22/Feb/2025 10:39:39] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:39:46,171 - INFO - 127.0.0.1 - - [22/Feb/2025 10:39:46] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 10:40:21,407 - INFO - 127.0.0.1 - - [22/Feb/2025 10:40:21] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-02-22 10:40:21,435 - INFO - 127.0.0.1 - - [22/Feb/2025 10:40:21] "GET / HTTP/1.1" 200 -
+2025-02-22 10:40:21,524 - INFO - 127.0.0.1 - - [22/Feb/2025 10:40:21] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-22 10:40:21,524 - INFO - 127.0.0.1 - - [22/Feb/2025 10:40:21] "GET /static/images/techwrk.png HTTP/1.1" 200 -
+2025-02-22 10:40:21,559 - INFO - 127.0.0.1 - - [22/Feb/2025 10:40:21] "GET /static/js/login.js HTTP/1.1" 200 -
+2025-02-22 10:40:22,658 - INFO - 127.0.0.1 - - [22/Feb/2025 10:40:22] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-02-22 10:40:22,678 - INFO - 127.0.0.1 - - [22/Feb/2025 10:40:22] "GET / HTTP/1.1" 200 -
+2025-02-22 10:40:22,752 - INFO - 127.0.0.1 - - [22/Feb/2025 10:40:22] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-22 10:40:22,787 - INFO - 127.0.0.1 - - [22/Feb/2025 10:40:22] "GET /static/images/techwrk.png HTTP/1.1" 200 -
+2025-02-22 10:40:22,790 - INFO - 127.0.0.1 - - [22/Feb/2025 10:40:22] "GET /static/js/login.js HTTP/1.1" 200 -
+2025-02-22 10:40:24,179 - INFO - 127.0.0.1 - - [22/Feb/2025 10:40:24] "GET / HTTP/1.1" 200 -
+2025-02-22 10:40:24,263 - INFO - 127.0.0.1 - - [22/Feb/2025 10:40:24] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-22 10:40:24,271 - INFO - 127.0.0.1 - - [22/Feb/2025 10:40:24] "GET /static/js/login.js HTTP/1.1" 200 -
+2025-02-22 10:40:24,273 - INFO - 127.0.0.1 - - [22/Feb/2025 10:40:24] "GET /static/images/techwrk.png HTTP/1.1" 200 -
+2025-02-22 10:40:39,161 - INFO - 127.0.0.1 - - [22/Feb/2025 10:40:39] "GET /static/images/logo.png HTTP/1.1" 200 -
+2025-02-22 10:40:52,093 - INFO - 127.0.0.1 - - [22/Feb/2025 10:40:52] "[33mGET /static/ HTTP/1.1[0m" 404 -
+2025-02-22 10:41:00,247 - INFO - 127.0.0.1 - - [22/Feb/2025 10:41:00] "[33mGET /static/login.js HTTP/1.1[0m" 404 -
+2025-02-22 10:41:14,763 - INFO - 127.0.0.1 - - [22/Feb/2025 10:41:14] "[33mGET /script/login.js HTTP/1.1[0m" 404 -
+2025-02-22 10:41:31,350 - INFO - 127.0.0.1 - - [22/Feb/2025 10:41:31] "GET /static/js/login.js HTTP/1.1" 200 -
+2025-02-22 10:45:18,709 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-22 10:45:18,710 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-22 10:45:18,715 - INFO -  * Restarting with stat
+2025-02-22 10:45:19,929 - WARNING -  * Debugger is active!
+2025-02-22 10:45:19,936 - INFO -  * Debugger PIN: 110-580-769
+2025-02-22 10:45:23,848 - INFO - 127.0.0.1 - - [22/Feb/2025 10:45:23] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:45:30,553 - INFO - 127.0.0.1 - - [22/Feb/2025 10:45:30] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-02-22 10:45:30,578 - INFO - 127.0.0.1 - - [22/Feb/2025 10:45:30] "GET / HTTP/1.1" 200 -
+2025-02-22 10:45:30,642 - INFO - 127.0.0.1 - - [22/Feb/2025 10:45:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 10:45:30,650 - INFO - 127.0.0.1 - - [22/Feb/2025 10:45:30] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:45:30,651 - INFO - 127.0.0.1 - - [22/Feb/2025 10:45:30] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:45:31,645 - INFO - 127.0.0.1 - - [22/Feb/2025 10:45:31] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-02-22 10:45:31,661 - INFO - 127.0.0.1 - - [22/Feb/2025 10:45:31] "GET / HTTP/1.1" 200 -
+2025-02-22 10:45:31,724 - INFO - 127.0.0.1 - - [22/Feb/2025 10:45:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 10:45:31,730 - INFO - 127.0.0.1 - - [22/Feb/2025 10:45:31] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:45:31,731 - INFO - 127.0.0.1 - - [22/Feb/2025 10:45:31] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:45:38,049 - INFO - 127.0.0.1 - - [22/Feb/2025 10:45:38] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-02-22 10:45:38,065 - INFO - 127.0.0.1 - - [22/Feb/2025 10:45:38] "GET / HTTP/1.1" 200 -
+2025-02-22 10:45:38,118 - INFO - 127.0.0.1 - - [22/Feb/2025 10:45:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 10:45:38,130 - INFO - 127.0.0.1 - - [22/Feb/2025 10:45:38] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:45:38,132 - INFO - 127.0.0.1 - - [22/Feb/2025 10:45:38] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:50:29,744 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-22 10:50:29,744 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-22 10:50:29,746 - INFO -  * Restarting with stat
+2025-02-22 10:50:31,011 - WARNING -  * Debugger is active!
+2025-02-22 10:50:31,018 - INFO -  * Debugger PIN: 110-580-769
+2025-02-22 10:50:32,759 - INFO - 127.0.0.1 - - [22/Feb/2025 10:50:32] "GET / HTTP/1.1" 200 -
+2025-02-22 10:50:33,001 - INFO - 127.0.0.1 - - [22/Feb/2025 10:50:33] "GET /static/css/login.css HTTP/1.1" 200 -
+2025-02-22 10:50:33,014 - INFO - 127.0.0.1 - - [22/Feb/2025 10:50:33] "GET /static/js/login.js HTTP/1.1" 200 -
+2025-02-22 10:50:33,021 - INFO - 127.0.0.1 - - [22/Feb/2025 10:50:33] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:50:36,364 - INFO - 127.0.0.1 - - [22/Feb/2025 10:50:36] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-02-22 10:50:36,377 - INFO - 127.0.0.1 - - [22/Feb/2025 10:50:36] "GET / HTTP/1.1" 200 -
+2025-02-22 10:50:36,438 - INFO - 127.0.0.1 - - [22/Feb/2025 10:50:36] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-02-22 10:50:36,445 - INFO - 127.0.0.1 - - [22/Feb/2025 10:50:36] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:50:36,447 - INFO - 127.0.0.1 - - [22/Feb/2025 10:50:36] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:50:38,834 - INFO - 127.0.0.1 - - [22/Feb/2025 10:50:38] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-02-22 10:50:38,851 - INFO - 127.0.0.1 - - [22/Feb/2025 10:50:38] "GET / HTTP/1.1" 200 -
+2025-02-22 10:50:38,910 - INFO - 127.0.0.1 - - [22/Feb/2025 10:50:38] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-02-22 10:50:38,917 - INFO - 127.0.0.1 - - [22/Feb/2025 10:50:38] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:50:38,918 - INFO - 127.0.0.1 - - [22/Feb/2025 10:50:38] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:50:43,575 - INFO - 127.0.0.1 - - [22/Feb/2025 10:50:43] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-02-22 10:50:43,589 - INFO - 127.0.0.1 - - [22/Feb/2025 10:50:43] "GET / HTTP/1.1" 200 -
+2025-02-22 10:50:43,649 - INFO - 127.0.0.1 - - [22/Feb/2025 10:50:43] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-02-22 10:50:43,656 - INFO - 127.0.0.1 - - [22/Feb/2025 10:50:43] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:50:43,657 - INFO - 127.0.0.1 - - [22/Feb/2025 10:50:43] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:51:07,580 - INFO - 127.0.0.1 - - [22/Feb/2025 10:51:07] "GET / HTTP/1.1" 200 -
+2025-02-22 10:51:07,634 - INFO - 127.0.0.1 - - [22/Feb/2025 10:51:07] "GET /static/css/login.css HTTP/1.1" 200 -
+2025-02-22 10:51:07,637 - INFO - 127.0.0.1 - - [22/Feb/2025 10:51:07] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:51:07,640 - INFO - 127.0.0.1 - - [22/Feb/2025 10:51:07] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:51:46,284 - INFO - 127.0.0.1 - - [22/Feb/2025 10:51:46] "GET / HTTP/1.1" 200 -
+2025-02-22 10:51:46,347 - INFO - 127.0.0.1 - - [22/Feb/2025 10:51:46] "GET /static/css/login.css HTTP/1.1" 200 -
+2025-02-22 10:51:46,354 - INFO - 127.0.0.1 - - [22/Feb/2025 10:51:46] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:51:46,357 - INFO - 127.0.0.1 - - [22/Feb/2025 10:51:46] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:52:28,615 - INFO - 127.0.0.1 - - [22/Feb/2025 10:52:28] "GET / HTTP/1.1" 200 -
+2025-02-22 10:52:28,687 - INFO - 127.0.0.1 - - [22/Feb/2025 10:52:28] "GET /static/css/login.css HTTP/1.1" 200 -
+2025-02-22 10:52:28,689 - INFO - 127.0.0.1 - - [22/Feb/2025 10:52:28] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:52:28,692 - INFO - 127.0.0.1 - - [22/Feb/2025 10:52:28] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:52:49,118 - INFO - 127.0.0.1 - - [22/Feb/2025 10:52:49] "GET / HTTP/1.1" 200 -
+2025-02-22 10:52:49,169 - INFO - 127.0.0.1 - - [22/Feb/2025 10:52:49] "GET /static/css/login.css HTTP/1.1" 200 -
+2025-02-22 10:52:49,172 - INFO - 127.0.0.1 - - [22/Feb/2025 10:52:49] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:52:49,176 - INFO - 127.0.0.1 - - [22/Feb/2025 10:52:49] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:53:01,908 - INFO - 127.0.0.1 - - [22/Feb/2025 10:53:01] "GET / HTTP/1.1" 200 -
+2025-02-22 10:53:01,959 - INFO - 127.0.0.1 - - [22/Feb/2025 10:53:01] "GET /static/css/login.css HTTP/1.1" 200 -
+2025-02-22 10:53:01,961 - INFO - 127.0.0.1 - - [22/Feb/2025 10:53:01] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:53:01,963 - INFO - 127.0.0.1 - - [22/Feb/2025 10:53:01] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:53:32,020 - INFO - 127.0.0.1 - - [22/Feb/2025 10:53:32] "GET / HTTP/1.1" 200 -
+2025-02-22 10:53:32,067 - INFO - 127.0.0.1 - - [22/Feb/2025 10:53:32] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-02-22 10:53:32,088 - INFO - 127.0.0.1 - - [22/Feb/2025 10:53:32] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:53:32,102 - INFO - 127.0.0.1 - - [22/Feb/2025 10:53:32] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:54:00,787 - INFO - 127.0.0.1 - - [22/Feb/2025 10:54:00] "GET / HTTP/1.1" 200 -
+2025-02-22 10:54:00,833 - INFO - 127.0.0.1 - - [22/Feb/2025 10:54:00] "GET /static/css/login.css HTTP/1.1" 200 -
+2025-02-22 10:54:00,837 - INFO - 127.0.0.1 - - [22/Feb/2025 10:54:00] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:54:00,838 - INFO - 127.0.0.1 - - [22/Feb/2025 10:54:00] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:54:10,934 - INFO - 127.0.0.1 - - [22/Feb/2025 10:54:10] "GET / HTTP/1.1" 200 -
+2025-02-22 10:54:10,999 - INFO - 127.0.0.1 - - [22/Feb/2025 10:54:10] "GET /static/css/login.css HTTP/1.1" 200 -
+2025-02-22 10:54:11,002 - INFO - 127.0.0.1 - - [22/Feb/2025 10:54:11] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:54:11,004 - INFO - 127.0.0.1 - - [22/Feb/2025 10:54:11] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:54:11,457 - INFO - 127.0.0.1 - - [22/Feb/2025 10:54:11] "GET / HTTP/1.1" 200 -
+2025-02-22 10:54:11,506 - INFO - 127.0.0.1 - - [22/Feb/2025 10:54:11] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-02-22 10:54:11,510 - INFO - 127.0.0.1 - - [22/Feb/2025 10:54:11] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:54:11,523 - INFO - 127.0.0.1 - - [22/Feb/2025 10:54:11] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:54:11,598 - INFO - 127.0.0.1 - - [22/Feb/2025 10:54:11] "GET / HTTP/1.1" 200 -
+2025-02-22 10:54:11,645 - INFO - 127.0.0.1 - - [22/Feb/2025 10:54:11] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-02-22 10:54:11,661 - INFO - 127.0.0.1 - - [22/Feb/2025 10:54:11] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:54:11,663 - INFO - 127.0.0.1 - - [22/Feb/2025 10:54:11] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:54:22,674 - INFO - 127.0.0.1 - - [22/Feb/2025 10:54:22] "GET / HTTP/1.1" 200 -
+2025-02-22 10:54:22,723 - INFO - 127.0.0.1 - - [22/Feb/2025 10:54:22] "GET /static/css/login.css HTTP/1.1" 200 -
+2025-02-22 10:54:22,728 - INFO - 127.0.0.1 - - [22/Feb/2025 10:54:22] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:54:22,729 - INFO - 127.0.0.1 - - [22/Feb/2025 10:54:22] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:54:23,307 - INFO - 127.0.0.1 - - [22/Feb/2025 10:54:23] "GET / HTTP/1.1" 200 -
+2025-02-22 10:54:23,351 - INFO - 127.0.0.1 - - [22/Feb/2025 10:54:23] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-02-22 10:54:23,353 - INFO - 127.0.0.1 - - [22/Feb/2025 10:54:23] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:54:23,355 - INFO - 127.0.0.1 - - [22/Feb/2025 10:54:23] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:54:23,482 - INFO - 127.0.0.1 - - [22/Feb/2025 10:54:23] "GET / HTTP/1.1" 200 -
+2025-02-22 10:54:23,533 - INFO - 127.0.0.1 - - [22/Feb/2025 10:54:23] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-02-22 10:54:23,538 - INFO - 127.0.0.1 - - [22/Feb/2025 10:54:23] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:54:23,539 - INFO - 127.0.0.1 - - [22/Feb/2025 10:54:23] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:54:30,098 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-22 10:54:30,099 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-22 10:54:30,102 - INFO -  * Restarting with stat
+2025-02-22 10:54:31,429 - WARNING -  * Debugger is active!
+2025-02-22 10:54:31,436 - INFO -  * Debugger PIN: 110-580-769
+2025-02-22 10:54:31,495 - INFO - 127.0.0.1 - - [22/Feb/2025 10:54:31] "GET / HTTP/1.1" 200 -
+2025-02-22 10:54:31,742 - INFO - 127.0.0.1 - - [22/Feb/2025 10:54:31] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-02-22 10:54:31,763 - INFO - 127.0.0.1 - - [22/Feb/2025 10:54:31] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:54:31,765 - INFO - 127.0.0.1 - - [22/Feb/2025 10:54:31] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:55:22,514 - INFO - 127.0.0.1 - - [22/Feb/2025 10:55:22] "GET / HTTP/1.1" 200 -
+2025-02-22 10:55:22,582 - INFO - 127.0.0.1 - - [22/Feb/2025 10:55:22] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-02-22 10:55:22,593 - INFO - 127.0.0.1 - - [22/Feb/2025 10:55:22] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:55:22,594 - INFO - 127.0.0.1 - - [22/Feb/2025 10:55:22] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:55:22,667 - INFO - 127.0.0.1 - - [22/Feb/2025 10:55:22] "GET / HTTP/1.1" 200 -
+2025-02-22 10:55:22,717 - INFO - 127.0.0.1 - - [22/Feb/2025 10:55:22] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-02-22 10:55:22,723 - INFO - 127.0.0.1 - - [22/Feb/2025 10:55:22] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:55:22,724 - INFO - 127.0.0.1 - - [22/Feb/2025 10:55:22] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:55:22,809 - INFO - 127.0.0.1 - - [22/Feb/2025 10:55:22] "GET / HTTP/1.1" 200 -
+2025-02-22 10:55:22,875 - INFO - 127.0.0.1 - - [22/Feb/2025 10:55:22] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-02-22 10:55:22,883 - INFO - 127.0.0.1 - - [22/Feb/2025 10:55:22] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:55:22,885 - INFO - 127.0.0.1 - - [22/Feb/2025 10:55:22] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:55:43,777 - INFO - 127.0.0.1 - - [22/Feb/2025 10:55:43] "GET / HTTP/1.1" 200 -
+2025-02-22 10:55:43,821 - INFO - 127.0.0.1 - - [22/Feb/2025 10:55:43] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-02-22 10:55:43,826 - INFO - 127.0.0.1 - - [22/Feb/2025 10:55:43] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:55:43,827 - INFO - 127.0.0.1 - - [22/Feb/2025 10:55:43] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:56:26,207 - INFO - 127.0.0.1 - - [22/Feb/2025 10:56:26] "GET / HTTP/1.1" 200 -
+2025-02-22 10:56:26,271 - INFO - 127.0.0.1 - - [22/Feb/2025 10:56:26] "GET /static/css/login.css HTTP/1.1" 200 -
+2025-02-22 10:56:26,281 - INFO - 127.0.0.1 - - [22/Feb/2025 10:56:26] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:56:26,282 - INFO - 127.0.0.1 - - [22/Feb/2025 10:56:26] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:56:34,395 - INFO - 127.0.0.1 - - [22/Feb/2025 10:56:34] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-02-22 10:56:34,406 - INFO - 127.0.0.1 - - [22/Feb/2025 10:56:34] "GET / HTTP/1.1" 200 -
+2025-02-22 10:56:34,468 - INFO - 127.0.0.1 - - [22/Feb/2025 10:56:34] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-02-22 10:56:34,475 - INFO - 127.0.0.1 - - [22/Feb/2025 10:56:34] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:56:34,475 - INFO - 127.0.0.1 - - [22/Feb/2025 10:56:34] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:56:35,405 - INFO - 127.0.0.1 - - [22/Feb/2025 10:56:35] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-02-22 10:56:35,420 - INFO - 127.0.0.1 - - [22/Feb/2025 10:56:35] "GET / HTTP/1.1" 200 -
+2025-02-22 10:56:35,480 - INFO - 127.0.0.1 - - [22/Feb/2025 10:56:35] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-02-22 10:56:35,481 - INFO - 127.0.0.1 - - [22/Feb/2025 10:56:35] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:56:35,482 - INFO - 127.0.0.1 - - [22/Feb/2025 10:56:35] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:56:36,186 - INFO - 127.0.0.1 - - [22/Feb/2025 10:56:36] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-02-22 10:56:36,196 - INFO - 127.0.0.1 - - [22/Feb/2025 10:56:36] "GET / HTTP/1.1" 200 -
+2025-02-22 10:56:36,251 - INFO - 127.0.0.1 - - [22/Feb/2025 10:56:36] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-02-22 10:56:36,258 - INFO - 127.0.0.1 - - [22/Feb/2025 10:56:36] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:56:36,259 - INFO - 127.0.0.1 - - [22/Feb/2025 10:56:36] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:56:37,293 - INFO - 127.0.0.1 - - [22/Feb/2025 10:56:37] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-02-22 10:56:37,313 - INFO - 127.0.0.1 - - [22/Feb/2025 10:56:37] "GET / HTTP/1.1" 200 -
+2025-02-22 10:56:37,360 - INFO - 127.0.0.1 - - [22/Feb/2025 10:56:37] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-02-22 10:56:37,370 - INFO - 127.0.0.1 - - [22/Feb/2025 10:56:37] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:56:37,372 - INFO - 127.0.0.1 - - [22/Feb/2025 10:56:37] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:56:38,099 - INFO - 127.0.0.1 - - [22/Feb/2025 10:56:38] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-02-22 10:56:38,112 - INFO - 127.0.0.1 - - [22/Feb/2025 10:56:38] "GET / HTTP/1.1" 200 -
+2025-02-22 10:56:38,173 - INFO - 127.0.0.1 - - [22/Feb/2025 10:56:38] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-02-22 10:56:38,178 - INFO - 127.0.0.1 - - [22/Feb/2025 10:56:38] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 10:56:38,179 - INFO - 127.0.0.1 - - [22/Feb/2025 10:56:38] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:58:37,123 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-22 10:58:37,123 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-22 10:58:37,125 - INFO -  * Restarting with stat
+2025-02-22 10:58:38,498 - WARNING -  * Debugger is active!
+2025-02-22 10:58:38,509 - INFO -  * Debugger PIN: 110-580-769
+2025-02-22 10:58:39,698 - INFO - 127.0.0.1 - - [22/Feb/2025 10:58:39] "GET / HTTP/1.1" 200 -
+2025-02-22 10:58:39,980 - INFO - 127.0.0.1 - - [22/Feb/2025 10:58:39] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-02-22 10:58:40,000 - INFO - 127.0.0.1 - - [22/Feb/2025 10:58:40] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 10:58:40,008 - INFO - 127.0.0.1 - - [22/Feb/2025 10:58:40] "GET /static/js/login.js HTTP/1.1" 200 -
+2025-02-22 10:58:41,410 - INFO - 127.0.0.1 - - [22/Feb/2025 10:58:41] "[33mGET /dashboard.html HTTP/1.1[0m" 404 -
+2025-02-22 11:00:22,354 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-22 11:00:22,355 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-22 11:00:22,358 - INFO -  * Restarting with stat
+2025-02-22 11:00:23,634 - WARNING -  * Debugger is active!
+2025-02-22 11:00:23,641 - INFO -  * Debugger PIN: 110-580-769
+2025-02-22 11:00:26,070 - INFO - 127.0.0.1 - - [22/Feb/2025 11:00:26] "[33mGET /dashboard.html HTTP/1.1[0m" 404 -
+2025-02-22 11:00:30,402 - INFO - 127.0.0.1 - - [22/Feb/2025 11:00:30] "[33mGET /dashboard.html HTTP/1.1[0m" 404 -
+2025-02-22 11:00:36,285 - INFO - 127.0.0.1 - - [22/Feb/2025 11:00:36] "GET / HTTP/1.1" 200 -
+2025-02-22 11:00:36,535 - INFO - 127.0.0.1 - - [22/Feb/2025 11:00:36] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-02-22 11:00:36,554 - INFO - 127.0.0.1 - - [22/Feb/2025 11:00:36] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 11:00:36,555 - INFO - 127.0.0.1 - - [22/Feb/2025 11:00:36] "GET /static/js/login.js HTTP/1.1" 200 -
+2025-02-22 11:00:38,795 - INFO - 127.0.0.1 - - [22/Feb/2025 11:00:38] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-02-22 11:00:38,808 - INFO - 127.0.0.1 - - [22/Feb/2025 11:00:38] "GET / HTTP/1.1" 200 -
+2025-02-22 11:00:38,852 - INFO - 127.0.0.1 - - [22/Feb/2025 11:00:38] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-02-22 11:00:38,863 - INFO - 127.0.0.1 - - [22/Feb/2025 11:00:38] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 11:00:38,866 - INFO - 127.0.0.1 - - [22/Feb/2025 11:00:38] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 11:00:41,219 - INFO - 127.0.0.1 - - [22/Feb/2025 11:00:41] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-02-22 11:00:41,231 - INFO - 127.0.0.1 - - [22/Feb/2025 11:00:41] "GET / HTTP/1.1" 200 -
+2025-02-22 11:00:41,270 - INFO - 127.0.0.1 - - [22/Feb/2025 11:00:41] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-02-22 11:00:41,276 - INFO - 127.0.0.1 - - [22/Feb/2025 11:00:41] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 11:00:41,277 - INFO - 127.0.0.1 - - [22/Feb/2025 11:00:41] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 11:01:08,774 - INFO - 127.0.0.1 - - [22/Feb/2025 11:01:08] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-02-22 11:01:16,789 - INFO - 127.0.0.1 - - [22/Feb/2025 11:01:16] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-02-22 11:01:16,806 - INFO - 127.0.0.1 - - [22/Feb/2025 11:01:16] "GET / HTTP/1.1" 200 -
+2025-02-22 11:01:16,866 - INFO - 127.0.0.1 - - [22/Feb/2025 11:01:16] "GET /static/css/login.css HTTP/1.1" 200 -
+2025-02-22 11:01:16,880 - INFO - 127.0.0.1 - - [22/Feb/2025 11:01:16] "GET /static/images/techwrk.png HTTP/1.1" 200 -
+2025-02-22 11:01:16,890 - INFO - 127.0.0.1 - - [22/Feb/2025 11:01:16] "GET /static/js/login.js HTTP/1.1" 200 -
+2025-02-22 11:01:19,245 - INFO - 127.0.0.1 - - [22/Feb/2025 11:01:19] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-02-22 11:01:19,261 - INFO - 127.0.0.1 - - [22/Feb/2025 11:01:19] "GET / HTTP/1.1" 200 -
+2025-02-22 11:01:19,318 - INFO - 127.0.0.1 - - [22/Feb/2025 11:01:19] "GET /static/css/login.css HTTP/1.1" 200 -
+2025-02-22 11:01:19,351 - INFO - 127.0.0.1 - - [22/Feb/2025 11:01:19] "GET /static/js/login.js HTTP/1.1" 200 -
+2025-02-22 11:01:19,356 - INFO - 127.0.0.1 - - [22/Feb/2025 11:01:19] "GET /static/images/techwrk.png HTTP/1.1" 200 -
+2025-02-22 11:02:34,050 - INFO - 127.0.0.1 - - [22/Feb/2025 11:02:34] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-02-22 11:02:34,239 - INFO - 127.0.0.1 - - [22/Feb/2025 11:02:34] "GET / HTTP/1.1" 200 -
+2025-02-22 11:02:34,495 - INFO - 127.0.0.1 - - [22/Feb/2025 11:02:34] "GET /static/css/login.css HTTP/1.1" 200 -
+2025-02-22 11:02:34,509 - INFO - 127.0.0.1 - - [22/Feb/2025 11:02:34] "GET /static/images/techwrk.png HTTP/1.1" 200 -
+2025-02-22 11:02:34,511 - INFO - 127.0.0.1 - - [22/Feb/2025 11:02:34] "GET /static/js/login.js HTTP/1.1" 200 -
+2025-02-22 11:02:40,132 - INFO - 127.0.0.1 - - [22/Feb/2025 11:02:40] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-02-22 11:02:40,327 - INFO - 127.0.0.1 - - [22/Feb/2025 11:02:40] "GET / HTTP/1.1" 200 -
+2025-02-22 11:02:40,587 - INFO - 127.0.0.1 - - [22/Feb/2025 11:02:40] "GET /static/css/login.css HTTP/1.1" 200 -
+2025-02-22 11:02:40,590 - INFO - 127.0.0.1 - - [22/Feb/2025 11:02:40] "GET /static/images/techwrk.png HTTP/1.1" 200 -
+2025-02-22 11:02:40,592 - INFO - 127.0.0.1 - - [22/Feb/2025 11:02:40] "GET /static/js/login.js HTTP/1.1" 200 -
+2025-02-22 11:02:54,696 - INFO - 127.0.0.1 - - [22/Feb/2025 11:02:54] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-02-22 11:02:54,707 - INFO - 127.0.0.1 - - [22/Feb/2025 11:02:54] "GET / HTTP/1.1" 200 -
+2025-02-22 11:02:54,754 - INFO - 127.0.0.1 - - [22/Feb/2025 11:02:54] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-02-22 11:02:54,760 - INFO - 127.0.0.1 - - [22/Feb/2025 11:02:54] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 11:02:54,761 - INFO - 127.0.0.1 - - [22/Feb/2025 11:02:54] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 11:09:31,878 - INFO -  * Detected change in 'D:\\INTERN\\Project\\server.py', reloading
+2025-02-22 11:09:32,007 - INFO -  * Restarting with stat
+2025-02-22 11:09:36,970 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-22 11:09:36,970 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-22 11:09:36,976 - INFO -  * Restarting with stat
+2025-02-22 11:09:38,203 - WARNING -  * Debugger is active!
+2025-02-22 11:09:38,211 - INFO -  * Debugger PIN: 110-580-769
+2025-02-22 11:09:41,525 - INFO - 127.0.0.1 - - [22/Feb/2025 11:09:41] "GET / HTTP/1.1" 200 -
+2025-02-22 11:09:41,788 - INFO - 127.0.0.1 - - [22/Feb/2025 11:09:41] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-02-22 11:09:41,805 - INFO - 127.0.0.1 - - [22/Feb/2025 11:09:41] "[36mGET /static/images/techwrk.png HTTP/1.1[0m" 304 -
+2025-02-22 11:09:41,812 - INFO - 127.0.0.1 - - [22/Feb/2025 11:09:41] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-02-22 11:09:44,330 - INFO - 127.0.0.1 - - [22/Feb/2025 11:09:44] "GET /dashboard HTTP/1.1" 200 -
+2025-02-22 11:09:44,367 - INFO - 127.0.0.1 - - [22/Feb/2025 11:09:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 11:09:44,391 - INFO - 127.0.0.1 - - [22/Feb/2025 11:09:44] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-02-22 11:09:44,429 - INFO - 127.0.0.1 - - [22/Feb/2025 11:09:44] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-02-22 11:11:36,282 - INFO - Successfully inserted 512 records
+2025-02-22 11:11:36,342 - INFO - 127.0.0.1 - - [22/Feb/2025 11:11:36] "POST /upload HTTP/1.1" 200 -
+2025-02-22 11:11:41,832 - INFO - 127.0.0.1 - - [22/Feb/2025 11:11:41] "[31m[1mPOST /search HTTP/1.1[0m" 403 -
+2025-02-22 11:11:43,611 - INFO - 127.0.0.1 - - [22/Feb/2025 11:11:43] "[31m[1mPOST /search HTTP/1.1[0m" 403 -
+2025-02-22 11:11:44,690 - INFO - 127.0.0.1 - - [22/Feb/2025 11:11:44] "[31m[1mPOST /search HTTP/1.1[0m" 403 -
+2025-02-22 11:11:47,056 - INFO - 127.0.0.1 - - [22/Feb/2025 11:11:47] "[31m[1mPOST /search HTTP/1.1[0m" 403 -
+2025-02-22 11:11:49,250 - INFO - 127.0.0.1 - - [22/Feb/2025 11:11:49] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-02-22 11:16:29,887 - INFO -  * Detected change in 'D:\\INTERN\\Project\\server.py', reloading
+2025-02-22 11:16:30,043 - INFO -  * Restarting with stat
+2025-02-22 11:16:37,528 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-22 11:16:37,528 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-22 11:16:37,531 - INFO -  * Restarting with stat
+2025-02-22 11:16:39,182 - WARNING -  * Debugger is active!
+2025-02-22 11:16:39,192 - INFO -  * Debugger PIN: 110-580-769
+2025-02-22 11:16:40,170 - INFO - 127.0.0.1 - - [22/Feb/2025 11:16:40] "GET /dashboard HTTP/1.1" 200 -
+2025-02-22 11:16:40,657 - INFO - 127.0.0.1 - - [22/Feb/2025 11:16:40] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-02-22 11:16:40,659 - INFO - 127.0.0.1 - - [22/Feb/2025 11:16:40] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-02-22 11:16:40,660 - INFO - 127.0.0.1 - - [22/Feb/2025 11:16:40] "GET /static/images/logo.png HTTP/1.1" 200 -
+2025-02-22 11:16:47,438 - INFO - Successfully inserted 512 records
+2025-02-22 11:16:47,514 - INFO - 127.0.0.1 - - [22/Feb/2025 11:16:47] "POST /upload HTTP/1.1" 200 -
+2025-02-22 11:16:51,929 - INFO - 127.0.0.1 - - [22/Feb/2025 11:16:51] "[31m[1mPOST /search HTTP/1.1[0m" 403 -
+2025-02-22 11:55:29,411 - INFO -  * Detected change in 'D:\\INTERN\\Project\\server.py', reloading
+2025-02-22 11:55:29,568 - INFO -  * Restarting with stat

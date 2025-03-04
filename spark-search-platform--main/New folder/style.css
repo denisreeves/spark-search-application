@@ -1,0 +1,459 @@
+/* -----------------------------------------------------
+   Original Streamlit-like Styling
+----------------------------------------------------- */
+
+/* Only apply these rules when the body has .login-page */
+
+.techwrk-logo{
+  padding-left: -300px !important;
+  width: 130px;
+  height: 40px;
+}
+
+body.login-page {
+  background-color: #333 !important; /* Dark gray background */
+  color: white !important;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  margin-left: 75px;
+  margin-top: 50px;
+}
+
+/* Centered login container */
+.login-container {
+  width: 400px;
+  margin: 100px auto; /* Centers horizontally with 100px top margin */
+}
+
+/* Blue heading */
+.login-heading {
+  color: #2196F3; /* Blue text */
+  margin-bottom: 30px;
+  font-size:32px;
+  font-family: "Roboto";
+}
+
+/* White label text, bold, spaced from input */
+.login-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Wide text fields with blue border */
+.login-input {
+  width: 75%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #2196F3;
+  border-radius: 5px;
+  color: #2196F3;
+  background-color: white;
+  font-size: 1em;
+}
+
+/* Full-width blue button */
+.login-button {
+  width: 75px;
+  padding: 10px 15px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+.login-button:hover {
+  opacity: 0.9;
+}
+
+/* Login message area (success or error) */
+#login-message {
+  margin-top: 15px;
+  text-align: center;
+  color: #2196F3; /* Blue by default */
+  font-weight: bold;
+}
+
+
+
+
+/* Global Styles */
+body, .stApp {
+  background-color: #333333 !important;
+  color: white !important;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Hide header if any */
+header {
+  display: none;
+}
+
+/* Container for full-page layout (flex row) */
+.container {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+}
+
+/* Sidebar styling */
+.sidebar {
+  width: 350px; /* Fixed width */
+  height: 100vh; /* Full viewport height */
+  overflow-y: auto; /* Vertical scroll if needed */
+  overflow-x: hidden; /* No horizontal scrollbar */
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;  /* For positioning toggle button */
+  transition: transform 0.3s ease;
+}
+
+/* Hide scrollbar by default, show on hover (Webkit) */
+.sidebar::-webkit-scrollbar {
+  width: 0px;
+}
+.sidebar:hover::-webkit-scrollbar {
+  width: 8px;
+}
+.sidebar:hover::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+/* Sidebar minimized state */
+.sidebar.minimized {
+  transform: translateX(-100%);
+}
+
+/* Sidebar Toggle Button */
+.sidebar-toggle {
+  position: absolute;
+  top: 10px;
+  right: 10px;  /* Initially inside the sidebar */
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: #2196F3;
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 0;  /* Hidden by default */
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 10;
+}
+.sidebar:hover .sidebar-toggle {
+  opacity: 1;  /* Show on hover */
+}
+.sidebar-toggle::after {
+  content: "←";
+  display: block;
+  text-align: center;
+  line-height: 30px;
+  font-size: 14px;
+}
+/* When sidebar is minimized, reposition the toggle button */
+.sidebar.minimized .sidebar-toggle {
+  position: fixed;      /* Fixed relative to viewport */
+  left: 10px;           /* 10px from left edge */
+  top: 10px;            /* 10px from top */
+  right: auto;          /* Remove right positioning */
+  opacity: 1;           /* Always visible when minimized */
+}
+.sidebar.minimized .sidebar-toggle::after {
+  content: "→";
+}
+
+/* Sidebar content styling */
+.sidebar .sidebar-content {
+
+  background-color: #333 !important;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;  /* Non-heading text in sidebar: black */
+  border-style:solid;
+  border-width: 5px;
+  border-color: #2196F3 ;
+}
+.sidebar .sidebar-content h2, 
+.sidebar .sidebar-content h3 {
+  color: #2196F3 !important; /* Headings remain blue */
+}
+
+/* Main content area styling */
+.main-content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+/* -----------------------------------------------------
+   Additional Component Styling
+----------------------------------------------------- */
+
+/* Button styling */
+.stButton > button {
+  background-color: #2196F3 !important;
+  color: white !important;
+  border-radius: 5px;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+/* Input and select styling */
+.stTextInput > div > input,
+.stSelectbox div,
+.stMultiselect div {
+  background-color: white !important;
+  border: 1px solid #2196F3 !important;
+  color: #2196F3 !important;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+/* Slider text color */
+.stSlider .st-bp {
+  color: #2196F3 !important;
+}
+
+/* Alert text color */
+.stAlert {
+  color: #2196F3 !important;
+}
+
+/* -----------------------------------------------------
+   Layout Helpers & Additional Styling
+----------------------------------------------------- */
+
+/* Filter block for dynamic filters */
+.filter-block {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Filter input spacing */
+.filter-input input {
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+/* Custom Dropdown Styles (for dynamic filter selection) */
+.dropdown {
+  position: relative;
+  width: 300px;
+  border: 1px solid #2196F3;
+  border-radius: 5px;
+  background-color: white;
+  color: #2196F3;
+  cursor: pointer;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+.dropdown-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dropdown-placeholder {
+  color: #2196F3;
+}
+.dropdown-arrow {
+  font-size: 12px;
+}
+.dropdown-options {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border: 1px solid #2196F3;
+  border-top: none;
+  z-index: 1000;
+  display: none;
+  max-height: 200px;
+  overflow-y: auto;
+}
+.dropdown-options.show {
+  display: block;
+}
+.dropdown-option {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+}
+.dropdown-option:hover {
+  background-color: #f1f1f1;
+}
+
+/* Selected Filters Container */
+#selected-filters {
+  margin-top: 10px;
+}
+
+/* Selected Filter Tags in the dropdown header */
+.dropdown-selected {
+  display: inline-block;
+  margin-right: 5px;
+}
+.dropdown-tag {
+  display: inline-block;
+  background-color: #2196F3;
+  color: white;
+  padding: 4px 8px;
+  margin: 2px;
+  border-radius: 3px;
+  font-size: 14px;
+}
+.tag-remove {
+  display: inline-block;
+  background-color: #ff4d4d;
+  color: white;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  line-height: 16px;
+  text-align: center;
+  margin-left: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+/* Results Container Styles */
+.results-container {
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+  max-height: 500px;  /* default max-height */
+  overflow: auto;
+  position: relative;
+}
+
+/* Fullscreen mode for results-container */
+.results-container.fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  max-height: none;
+  z-index: 9999;
+  overflow: auto;
+  background-color: white;
+  border: none;
+  padding: 20px;
+}
+
+/* Options Pop-up (appears on hover) */
+.results-options {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  z-index: 10;
+  display: none;
+}
+.results-container:hover .results-options {
+  display: block;
+}
+.results-options button,
+.results-options input {
+  margin: 0 3px;
+  padding: 4px 8px;
+  font-size: 12px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.results-options button {
+  background-color: #2196F3;
+  color: white;
+}
+.results-options input {
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+}
+
+/* Logo Styling */
+.logo {
+  max-width: 150px;
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* Login container styling (if needed) */
+.login-container {
+  width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 5px;
+  color: #2196F3;
+}
+
+/* File Dropzone Styles */
+.file-dropzone {
+  border: 2px dashed #2196F3;
+  border-radius: 10px;
+  background-color: white;
+  color: #2196F3;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+.file-dropzone p {
+  margin: 0;
+  padding: 5px;
+}
+.file-dropzone .file-limit {
+  font-size: 0.9em;
+  color: #666;
+}
+.file-dropzone.dragover {
+  border-color: #0a74da;
+  background-color: #e3f2fd;
+}
+
+/* Browse button styling */
+.browse-btn {
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.browse-btn:hover {
+  opacity: 0.9;
+}
+
+/* Loading Bar Styles */
+.loading-bar-container {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 5px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.loading-bar {
+  width: 0%;
+  height: 8px;
+  background-color: green;
+  transition: width 0.5s ease;
+}
