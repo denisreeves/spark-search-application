@@ -1,5 +1,5 @@
 Flask
-Werkzeug
+Werkzeug==2.0.3
 pipdeptree
 pandas==1.5.3
 numpy==1.23.5
