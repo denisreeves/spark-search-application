@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Spark Search - Dashboard</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body class="stApp">
+  <div class="container">
+    <!-- Sidebar -->
+    <!-- Sidebar Section -->
+<!-- Sidebar Section -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-content">
+    <!-- Toggle Button for Sidebar
+    <button id="sidebar-toggle" class="sidebar-toggle"></button>
+    -->
+    
+    <!-- Logo and Title -->
+    <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo" class="logo">
+    <h2>Data Management</h2>
+    
+    <!-- File Upload Section -->
+    <div id="file-dropzone" class="file-dropzone">
+      <p>Drag and drop file here</p>
+      <p class="file-limit">Limit 200MB per file • CSV, XLSX, XLS</p>
+    </div>
+    <!-- Hidden file input -->
+    <input type="file" id="file-upload" accept=".csv, .xlsx, .xls" style="display: none;">
+    <!-- Combined Browse File Button -->
+    <button id="browse-btn" class="browse-btn">Browse File</button>
+    <!-- Loading bar container (hidden initially) -->
+    <div id="loading-bar-container" class="loading-bar-container" style="display: none;">
+      <div id="loading-bar" class="loading-bar"></div>
+    </div>
+    
+    <!-- Upload Info -->
+    <div id="upload-info" style="display: none;"></div>
+    
+    <h3>Quick Stats</h3>
+    <ul class="quick-stats">
+      <li>Use the filters above to search data</li>
+      <li>Export results in CSV/Excel/JSON format</li>
+    </ul>
+  </div>
+</div>
+
+
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <h1>Spark Search Platform</h1>
+      <p id="upload-message" class="stAlert">Please upload a file first.</p>
+      <div id="dashboard-ui" style="display: none;">
+        <!-- Dynamic Filter UI and Results go here -->
+        <h3>Search Criteria</h3>
+        <div id="filter-dropdown" class="dropdown">
+          <div id="dropdown-header" class="dropdown-header">
+            <span id="dropdown-placeholder" class="dropdown-placeholder">Select a filter to apply</span>
+            <div id="dropdown-selected" class="dropdown-selected"></div>
+            <span class="dropdown-arrow">▼</span>
+          </div>
+          <div id="dropdown-options" class="dropdown-options"></div>
+        </div>
+        <div id="selected-filters"></div>
+        <div class="stButton">
+          <button id="search-btn">Search Data</button>
+        </div>
+        <div id="results">
+          <h3>Search Results</h3>
+          <div id="results-message" class="stAlert"></div>
+          <div id="results-container" class="results-container">
+            <div id="results-options" class="results-options">
+              <button id="fit-screen-btn" title="Fit to screen">⤢</button>
+              <input id="results-search" type="text" placeholder="Search results">
+              <button id="download-csv-btn" title="Download as CSV">Download CSV</button>
+            </div>
+            <div id="results-content">
+              <table id="results-table"></table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+</body>
+</html>
