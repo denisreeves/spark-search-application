@@ -44,11 +44,11 @@ app.config['MAIL_USE_SSL'] = True  # ✅ Enable SSL for port 465
 app.config['MAIL_DEFAULT_SENDER'] = 'azzim@mmglobus.in'  # ✅ Sender email must match username
 mail = Mail(app)
 
-def send_welcome_email(user_email, username):
+def send_welcome_email(user_email, username,password):
     """Send a welcome email to the new user."""
     try:
-        msg = Message("Welcome to Admin Panel", sender=app.config['MAIL_DEFAULT_SENDER'], recipients=[user_email])
-        msg.body = f"Hello {username},\n\nYour account has been created successfully.\n\nBest Regards,\nSpark Admin Team"
+        msg = Message("Welcome to Spark Search Application", sender=app.config['MAIL_DEFAULT_SENDER'], recipients=[user_email])
+        msg.body = f"Hello {username},\n\nYour account has been created successfully.\n\n Your User Name is {username} \n\n Your Password is {password} \n\nBest Regards,\nSpark Admin Team"
         mail.send(msg)
         print(f"✅ Welcome email sent to {user_email}")
     except Exception as e:
@@ -252,7 +252,7 @@ def add_user():
         new_user_id = db.cursor.lastrowid  
 
         # Send welcome email to the new user
-        send_welcome_email(email, username)
+        send_welcome_email(email, username ,password )
 
         # Send notification email to admin
         send_admin_notification(
