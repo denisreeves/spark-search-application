@@ -167,25 +167,14 @@ def admin_login():
 
     print(f"📌 Debug: Received login for username: {username}")
 
-    admin = mongo.db.admins.find_one({"username": username})
-
-    if not admin:
-        print("❌ Debug: Admin not found in database")
-        return jsonify({"status": "error", "message": "Admin not found"}), 401
-
-    stored_password_hash = admin["password"]
-    print(f"🔑 Debug: Found admin, stored password hash: {stored_password_hash}")  # Print stored hash
-    print(f"🔑 Debug: Password entered: {password}")  # Print entered password
-
-    # Check if the password matches the hash
-    if bcrypt.check_password_hash(stored_password_hash, password):
+    # Static check for admin credentials
+    if username == "admin" and password == "admin123":
         session["admin_username"] = username
         print("✅ Debug: Login successful!")
-        return jsonify({"status": "success", "redirect": "/admin/dashboard"}), 200  # ✅ Send redirect URL
+        return jsonify({"status": "success", "redirect": "/admin/dashboard"}), 200
 
-    print("❌ Debug: Password incorrect!")
+    print("❌ Debug: Invalid credentials!")
     return jsonify({"status": "error", "message": "Invalid credentials"}), 401
-
 
 @app.route('/admin/dashboard')
 def admin_dashboard():
